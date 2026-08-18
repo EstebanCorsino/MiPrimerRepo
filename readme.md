@@ -25,3 +25,15 @@ Para el entrenamiento de los modelos expertos, utilizamos diversos conjuntos de 
 * https://archive.ics.uci.edu/dataset/60/liver+disorders
 ### Chronic Kidney Disease
 * https://archive.ics.uci.edu/dataset/336/chronic+kidney+disease
+
+## Paso a aplicar en nuestro proceso
+Estos son los pasos a realizar para cada conjunto.
+* Descargar 
+* Limpiar los datos
+    * Ver si tiene valores nulos
+    * Revisar si tiene duplicados
+    * Anomalos o outliner (datos atipicos)
+* Normalizacion de datos
+    * Estandarizar nomenclatura
+        * Colocar la tabla de descripcion de variables
+    * Nota: practicar one hot endcoding, verificar sustitucion de datos por promedios, por medianas y por moda. validar en cada caso.
