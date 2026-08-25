@@ -1,4 +1,4 @@
-En este archivo documentaremos los cambios realizados en los conjuntos de datos cardiacos.
+En este archivo documentaremos los cambios realizados en los conjuntos de datos Diabetes.
 # Diabetes1
     Cargamos las librerias
     Cargamos la base de datos y le asignamos el nombre de Diabetes1.
