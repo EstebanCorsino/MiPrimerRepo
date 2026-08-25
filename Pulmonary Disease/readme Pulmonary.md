@@ -31,3 +31,29 @@ En este archivo documentaremos los cambios realizados en los conjuntos de datos 
     Normalizamos
     Descargamos el dataset y lo guardamos en Pulmo2
     Le pedimos a la ia que nos genere una tabla que desfriba las variables
+
+# Pulmo3 datasets prakharrahi25 student-dataset
+
+    Cargamos las librerias
+    Descargamos el dataset y lo guardamos como Pulmo3
+    Vemos la informacion del dataset
+    Vemos si hay duplicaods
+    Vemos el tamanio del dataset
+    LLenamos los datos nulos con la media
+    Normalizamos
+    Comprobamos que todas las variables esten normalizadas
+    Descargamos el dataset, lo guardamos como Pulmo3
+    Generamos una tabla para la descripcion de las variables
+
+# Pulmo4 meirnizri covid19-dataset data
+
+    Cargamos las librerias
+    Descargamos el dataset y lo cargamos como Pulmo4
+    Vemos la info del dataset
+    Observamos que no hay valores nulos
+    Vemos si hay duplicados
+    Eliminamos los duplicados
+    Normalizamos
+    Convertimos las fechas a float
+    Guardamos el archivo 
+    Creamos una tabla que describa las columnas
