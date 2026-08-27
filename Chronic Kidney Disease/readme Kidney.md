@@ -11,4 +11,4 @@ En este archivo documentaremos los cambios realizados en los conjuntos de datos 
     Normalizamos
     Eliminamos las filas que tienen variables object
     Descargamos el dataset y lo guardamos como Kidney1
-    Creamos una tabla que describe las columnas
+    Creamos una tabla que describe las columnas 
