@@ -23,6 +23,10 @@ diabetes1_dataset = {
     "F100C":[
      "¿Ha fumado al menos 100 cigarrillos en toda su vida? "  
     ],
+    # Nombre original Stroke
+    "ADC":[
+        "¿Alguna vez le han dicho que ha tenido un derrame cerebral?"
+    ],
     # Nombre original  HeartDiseaseorAttack
     "ECI":[
     " ¿Alguna vez le han dicho que tiene enfermedad coronaria o infarto de miocardio? "       
@@ -86,5 +90,109 @@ diabetes1_dataset = {
     # Nombre original Diabetic
     "DiDia":[
         "¿Alguna vez le han dicho que tiene diabetes?"
+    ]
+}
+
+# Esta nomenclatura pertenece al dataset de Chrinic Kidney Disease
+Kidney1_dataset = {
+    # Nombre original age
+    "Edad":[
+        "Edad en anios"
+    ],
+    # Nombre original bp
+    "PAA":[
+        "Presion arterial"
+    ],
+    # Nombre original sg   
+    "GE":[
+        "Gravedad especifica"
+    ],
+    # Nombre original al
+    "AL":[
+        "Albumina"
+    ],
+    # Nombre original su
+    "Azucar":[
+        "Azucar"
+    ],
+    # Nombre original rbc
+    "GR":[
+        "Glóbulos rojos"
+    ],
+    # Nombre original pc
+    "CPus":[
+        "Células de pus"
+    ],
+    # Nombre original pcc
+    "  GcPus":[
+        "Células de pus"
+    ],
+    # Nombre original ba
+    "Bacterias":[
+        "Bacterias"
+    ],
+    # Nombre original bgr
+    "Glucosa":[
+        "Glucosa en sangre"
+    ],
+    # Nombre original bu
+    "Urea":[
+        "Urea en sangre"
+    ],
+    # Nombre original sc
+    "Creatinina":[
+        "Creatinina serica"
+    ],
+    # Nombre original sod
+    "Sodio":[
+        "Sodio"
+    ],
+    # Nombre original pot
+    "Potasio":[
+        "Potasio"
+    ],
+    # Nombre original hemo
+    "Hemoglobina":[
+        "Hemoglobina"
+    ],
+    # Nombre original pcv
+    "VCE":[
+        "volumen celular empaquetado"
+    ],
+    # Nombre original wc
+    "RGB":[
+        "Recuento de glóbulos blancos"
+    ],
+    # Nombre original rc
+    "RGR":[
+        "Recuento de glóbulos rojos"
+    ],
+    # Nombre original htn
+    "HTA":[
+        "Hipertensión"
+    ],
+    # Nombre original dm
+    "DiaM":[
+        "Diabetes mellitus"
+    ],
+    # Nombre original cad
+    "EAC":[ 
+        "enfermedad de las arterias coronarias"
+    ],
+    # Nombre original appet
+    "Apetito":[
+        "Apetito"
+    ],
+    # Nombre original pe
+    "Edema":[
+        "Edema de pedal"
+    ],
+    # Nombre original anemia
+    "Anemia":[
+        "Anemia"
+    ],
+    # Nombre original class
+    "Clase":[
+        "Clase)"
     ]
 }
