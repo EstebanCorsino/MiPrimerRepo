@@ -868,8 +868,63 @@ Liver3_dataset = {
     "kleiner_nas_score":[
         "Puntuación NAS (NASH Activity Score) según Kleiner."
     ],
-    # Nombre original 
+    # Nombre original NAS 
     "nas_fibrosis_flag":[
         "Indicator if NAS score ≥ 4 and fibrosis stage ≥ 2 (1 = Yes, 0 = No)."
     ],
+    # Nombre original Fibrosis status
+    "fibrosis_status":[
+        "Indicator of fibrosis presence."
+    ],
+    # Nombre original Significant Fibrosis
+    "significant_fibrosis_status":[
+        "Indicator of significant fibrosis."
+    ],
+    # Nombre original Advanced Fibrosis
+    "advanced_fibrosis_status":[
+        "Indicator of advanced fibrosis."
+    ],
+    # Nombre original Cirrosis
+    "cirrosis":[
+        "Indicador de cirrosis"
+    ],
+    # Nombre original Diagnosis according SAF
+    "diagnosis_according_saf":[
+        "Diagnostico segun SAF"
+    ],
+    # Nombre original Type of Disease
+    "type_of_disease":[
+        "Tipo de enfermedad"
+    ] 
+}
+
+Liver4_dataset = {
+    # Nombre original mcv
+    "mcv":[
+        "Volumen corpuscular medio"
+    ],
+    # Nombre original alkphos
+    "alk_phos":[
+        "Fosfata alcalina"
+    ],
+    # Nombre original sgpt
+    "sgpt":[
+        "Alanina aminotransferasa"
+    ],
+    # Nombre original sgot
+    "sgot":[
+        "Aspartato aminotransferasa"
+    ],
+    # Nombre original gammagt
+    "gammagt":[
+        "Gamma-glutamil transpeptidasa"
+    ],
+    # Nombre original drinks
+    "drinks":[
+        "Numero de equivalentes de medio litro de bebidas alcoholicas por dia"
+    ],
+    # Nombre original selector
+    "selector":[
+        "Campo creado por los investigadores de BUPA para dividir los datos en conjuntos de entrenamiento/prueba. "
+    ]
 }
