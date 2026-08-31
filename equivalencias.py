@@ -168,7 +168,7 @@ Kidney1_dataset = {
         "Recuento de glóbulos rojos"
     ],
     # Nombre original htn
-    "htn":[
+    "hypertension":[
         "Hipertensión"
     ],
     # Nombre original dm
@@ -500,6 +500,8 @@ Heart5_dataset = {
         "Indica si el paciente tiene cancer de piel"
     ]
 }
+
+# Esta nomenclatura pertenece al dataset de Liver Disease
 
 Liver1_dataset = {
     # Nombre original ID
@@ -928,3 +930,545 @@ Liver4_dataset = {
         "Campo creado por los investigadores de BUPA para dividir los datos en conjuntos de entrenamiento/prueba. "
     ]
 }
+
+# Esta nomenclatura pertenece al dataset de Pulmonary Disease
+
+Pulmo1_dataset = {
+    # Nombre original age
+    "age":[
+      "Edad del paciente"
+    ],
+    # Nombre original sex
+    "sex":[
+      "sexo del paciente"
+    ],
+    # Nombre orignal dzgroup
+    "dz_group":[
+      "Grupo de enfermedad"
+    ],
+    # Nombre original dzclass
+    "dz_class":[
+      "Clase de enfermedad"
+    ],
+    # Nombre original num.co
+    "num_co":[
+      "Numero de comorbilidades"
+    ],
+    # Nombre original esu
+    "edu":[
+      "Nivel educativo"
+    ],
+    # Nombre original income
+    "income":[
+      "Nivel de ingresos"
+    ],
+    # Nombre original scoma
+    "scoma":[
+      "Escala de coma de Glasgow"
+    ],
+    # Nombre original charges
+    "charges":[
+      "Cargos hospitalarios"
+    ],
+    # Nombre original totcst
+    "tot_cost":[
+      "Costo toal"
+    ],
+    # Nombre original totmcst
+    "tot_m_cst":[
+       "Costo medico total"
+    ],
+    # Nombre original avtisst
+    "avt_isst":[
+       "Tiempo de ventilacion asistida"
+    ],
+    # Nombre original race
+    "race":[
+     "Raza del paciente"
+    ],
+    # Nombre original sps
+    "sps":[
+      "Puntuacion de pronostico de supervivencia"
+    ],
+    # Nombre original aps
+    "aps":[
+     "Puntuacion de la condicion fisica aguda"
+    ],
+    # Nombre original surv2m
+    "surv_2_m":[
+      "Supervivencia a 2 meses"
+    ],
+    # Nombre original surv6m
+    "surv_6_m":[
+      "Superviveencia a 6 meses"
+    ],
+    # Nombre original hday
+    "h_day":[
+     "Dias de hospital"
+    ],
+    # Nombre original diabetes
+    "diabetes":[
+       "Precencia de diabetes"
+    ],
+    # Nombre original dementia
+    "dementia":[
+      "Presencia de demencia"
+    ],
+    # Nombre original ca
+    "cancer":[
+      "Precencia de cancer"
+    ],
+    # Nombre original prg2m
+    "prg_2_m":[
+     "Pronostico a 2 meses"
+    ],
+    # Nombre original prg6m
+    "prg_6_m":[
+     "Pronostico a 6 meses"
+    ],
+    # Nombre original dnr
+    "dnr":[
+      "Orden de no reanimar"
+    ],
+    # Nombre original dnrday
+    "dnr_day":[
+      "Dias desde la orden de no reanimar"
+    ],
+    # Nombre original meanbp
+    "mean_bp":[
+      "Presion arterial media"
+    ],
+    # Nombre original wblc
+    "white_blood_cell_count":[
+      "Recuento de globulos blancos"
+    ],
+    # Nombre original hrt
+    "hrt":[
+      "Frecuencia cardiaca"
+    ],
+    # Nombre original resp
+    "resp":[
+      "Frecuencia respiratoria"
+    ],
+    # Nombre original temp
+    "body_temp":[
+      "Temperatura corporal"
+    ],
+    # Nombre original pafi
+    "pafi":[
+     "Relación PaO2/FiO2"
+    ],
+    # Nombre original alb
+    "alb":[
+     "Nivel de albumina"
+    ],
+    # Nombre original bili
+    "bili":[
+      "Nivel de bilirrubina"
+    ],
+    # Nombre original crea
+    "crea":[
+     "Nivel de creatinina "
+    ],
+    # Nombre original sod
+    "sod":[
+     "Nivel de sodio"
+    ],
+    # Nombre original ph
+    "ph":[
+      "Nivel de ph"
+    ],
+    # Nombre original glucose
+    "glucose":[
+     "Nivel de glucosa"
+    ],
+    # Nombre original bun
+    "bun":[
+     "Nitrogeno ureico en sangre"
+    ],
+    # Nombre original urine
+    "urine":[
+     "Produccion de orina"
+    ],
+    # Nombre orignal adlp
+    "adlp":[
+     "Actividad de la vida diaria"
+    ],
+    # Nombre original adls
+    "adls":[
+     "Cambio en actividades de la vida diaria"
+    ],
+    # Nombre original adlsc
+    "adlsc":[
+     "Cambio en actividades de la vida diaria"
+    ],
+    # Nombre original death
+    "death":[
+     "Estado de muerte"
+    ],
+    # Nombre original hospdead
+    "hosp_dead":[
+     "Muerte en hospital"
+    ],
+    # Nombre original sfdm2
+    "sfdm2":[
+     "Escala de funcion desicional de Stanford"
+   ]    
+    }
+
+    Pulmo2_dataset = {
+    # Nombre original State
+    "state":[
+     "Estado de residencia del encuestado"
+    ],
+    # Nombre original Sex
+    "sex":[
+       "Genero del encuestado"
+    ],
+    # Nombre original GeneralHealth
+    "general_health":[
+        "Salud general percibida del encuestado"
+    ],
+    # Nombre original PhysicalHealthDays
+    "physical_health_days":[
+        "Numero de dias durante los ultimos 30 en la que la salud fisica no fue buena"
+    ],
+    # Nombre original MentalHealthDays
+    "mental_health_days":[
+        "Numero de dias durante los ultimos 30 en que la salud mental no fue buena"
+    ],
+    # Nombre original LastCheckupTime
+    "last_checkup_time":[
+        "Tiempo transcurrido desde el ultimo chequeo medico"
+    ],
+    # Nombre original PhysicalActivities
+    "physical_activities":[
+        "Si el encuestado realizo actividad fisica en los ultimos 30 dias"
+    ],
+    # Nombre original SleepHours
+    "sleep_hours":[
+        "Horas de sueño promedio"
+    ],
+    # Nombre original RemovedTeeth
+    "removed_teeth":[
+        "Numero de dientes extraidos"
+    ],
+    # Nombre original HadHeartAttack
+    "had_heart_attack":[
+        "Si el encuestado ha tenido un ataque al corazon"
+    ],
+    # Nombre original HadAngina
+    "had_angina":[
+        "Si el encuestado ha tenido angina de pecho"
+    ],
+    # Nombre original HadStroke
+    "had_stroke":[
+        "Si el encuestado ha tenido un derrame cerebral"
+    ],
+    # Nombre original HadAsthma
+    "had_asthma":[
+        "Si el encuestado ha tenido asma"
+    ],
+    # Nombre original HadSkinCancer
+    "had_skin_cancer":[
+        "Si el encuestado ha tenido cancer de piel"
+    ],
+    # Nombre original HadCOPD
+    "has_COPD":[
+        "Si el encuestado ha tenido EPOC (Enfermedad pulmonar Obstructiva Cronica)"
+    ],
+    # Nombre original HadDepressiveDisorder
+    "had_depressive_disorder":[
+        "Si el encuestado ha tenido un trastorno depresivo"
+    ],
+    # Nombre original HadKidneyDisease
+    "had_kidney-disease":[
+        "Si el encuestado ha tenido enfermedad renal"
+    ],
+    # Nombre original HadArthritis
+    "had_arthritis":[
+        "Si el encuestado ha tenido artritis"
+    ],
+    # Nombre original HadDiabetes
+    "diabetes":[
+        "Si el encuestado ha tenido diabetes"
+    ],
+    # Nombre original DeafOrHardOfHearing
+    "deaf_or_hard_of_hearing":[
+        "Si el encuestado es sordo o tiene dificultad para oir"
+    ],
+    # Nombre original BlindOrVisionDifficulty
+    "blind_or_vision_difficulty":[
+        "Si el encuestado es ciego o tiene dificultad visual"
+    ],
+    # Nombre original DifficultyConcentrating
+    "difficulty_concentrating":[
+        "Si el entrevistado tiene dificultad para concentrarse"
+    ],
+    # Nombre original DifficultyWalking
+    "difficulty_walking":[
+        "Si el encuestado tiene dificultad para caminar"
+    ],
+    # Nombre original DifficultyDressingBathing
+    "difficulty_dressing_bathing":[
+        "Si el encuestado tiene dificultad para vestirse o bañarse."
+    ],
+    # Nombre original DifficultyErrands
+    "difficulty_errands":[
+        "Si el encuestado tiene dificultad para hacer recados"
+    ],
+    # Nombre original SmokerStatus
+    "smoker":[
+        "Estado de fumador del encuestado"
+    ],
+    # Nombre original ECigaretteUsage
+    "cigarette_usage":[
+        "Uso de cigarro electronico"
+    ],
+    # Nombre original ChestScan
+    "chest_scan":[
+        "Si se ha realizado una exploracion de torax"
+    ],
+    # Nombre original RaceEthnicityCategory
+    "race":[
+        "Categoria de raza/etnia del encuestado"
+    ],
+    # Nombre original AgeCategory
+    "age":[
+        "Categoria de edad del encuestado"
+    ],
+    # Nombre original HeighInMeters
+    "heigh_in_meters":[
+        "Altura del encuestado en metros"
+    ],
+    # Nombre original WeighInKilograms
+    "weigh_in_kilograms":[
+        "Peso del encuestado en kilogramos"
+    ],
+    # Nombre original BMI
+    "bmi":[
+        "Indice de masa corporal del encuestado"
+    ],
+    # Nombre original AlcoholDrinkers
+    "alcohol":[
+        "Si el encuestado es bebedor de alcohol"
+    ],
+    # Nombre original HIVTesting
+    "HIV_testing":[
+        "Si el encuestado se ha realizado prueba de VIH"
+    ],
+    # Nombre original FluVaxLast12
+    "flu_vax_last_12":[
+        "Si el encuestado recibio la vacuna contra la gripe en los ultimos 12 meses"
+    ],
+    # Nombre original PneumoVaxEver
+    "pneumo_vax_ever":[
+        "Si el encuestado recibio la vacuna antineumococica alguna vez"
+    ],
+    # Nombre original TetanusLast10Tdap
+    "tetanus_last_10_tdap":[
+        "Si el encuestado recibio la vacuna contra el tetano en los ultimos 10 anios"
+    ],
+    # Nombre original HighRiskLastYear
+    "high_risk_last_year":[
+        "Si el encuestado ha sido considerado de alto riesgo en el ultimo anio"
+    ],
+    # Nombre original CovidPos
+    "covid_pos":[
+        "Resultado de la prueba de COVID-19"
+    ]
+    }
+
+    Pulmo3_dataset = {
+    # Nombre original ID
+    "id":[
+        "Identificador unico para cada paciente o registro"
+    ],
+    # Nomre original AGE
+    "age":[
+        "Edad del paciente en anios"
+    ],
+    # Nombre original PackHistory
+    "pack_history":[
+        "Historial de tabaquismo del paciente, posiblemente en paquetes-año"
+    ],
+    # Nombre original MWT1
+    "mwt1":[
+        "Distancia caminada en la primera prueba de marcha de 6 minutos"
+    ],
+    # Nombre original MWT2
+    "mwt2":[
+        "Distancia caminada en la segunda prueba de marcha de 6 minutos"
+    ],
+    # Nombre original MWT1Best
+    "mwt1_best":[
+        "La mejor ditancia caminada entre MWT1 y MWT2"
+    ],
+    # Nombre original FEV1
+    "fev1":[
+        "Volumen espiratorio forzado en 1 segundo"
+    ],
+    # Nombre original FEV1PRED
+    "fev1_pred":[
+        "Porcentaje predicho de FEV1"
+    ],
+    # Nombre original FVC
+    "fvc":[
+        "Capacidad vital forzada"
+    ],
+    # Nombre orignal FVCPRED
+    "fvc_pred":[
+        "Porcentaje predicho de fvc"
+    ],
+    # Nombre original CAT
+    "cat":[
+        "Puntuación del Cuestionario de Evaluación de la EPOC (CAT score), mide el impacto de la EPOC en la vida del paciente"       
+    ],
+    # Nombre original HAD
+    "had":[
+        "La EPOC en la vida del paciente"
+    ],
+    # Nombre original SGRQ
+    "SGrq":[
+        "Puntuación del Cuestionario Respiratorio de St. George (St. George's Respiratory Questionnaire), evalúa el estado de salud "
+    ],
+    # Nombre original AGEquartiles
+    "age_quartiles":[
+        "Cuartil de edad del paciente"
+    ],
+    # Nombre original copd
+    "copd":[
+        "Indicador numerico de la presencia o gravedad de la EPOC"
+    ],
+    # Nombre original gender
+    "sex":[
+        "Genero del paciente"
+    ],
+    # Nombre original smoking
+    "smoking":[
+        "Estado de fumador del paciente"
+    ],
+    # Nombre original Diabetes
+    "diabetes":[
+        "Indicador de si el paciente tiene diabetes"
+    ],
+    # Nombre original muscular
+    "muscular":[
+        "Indicador si el paciente tiene alguna condicion muscular"
+    ],
+    # Nombre original hypertension
+    "hypertension":[
+        "Indicador de si el paciente tiene hipertension"
+    ],
+    # Nombre original AtrialFib
+    "atrial_fib":[
+        "Indicador de si el paciente tiene fibrilacion auricular"
+    ],
+    # Nombre original IHD
+    "ihd":[
+        "Indicador de si el paciente tiene enfermedad isquemica del corazon"
+    ],
+    # Nombre original COPDSEVERITY_MILD
+    "copd_severity_mild":[
+        "Columna dummy: 1 si la severidad de EPOC es MILD, 0 en otro caso"
+    ],
+    # Nombre original COPDSEVERITY_MODERATE
+    "copd_severity_moderate":[
+        "Columna dummy: 1 si la severidad de EPOC es MODERATE, 0 en otro caso"
+    ],
+    # Nombre original COPDSEVERITY_SEVERE
+    "copd_severity_severe":[
+        " Columna dummy: 1 si la severidad de EPOC es SEVERE, 0 en otro caso"
+    ],
+    # Nombre original COPDSEVERITY_VERY SEVERE
+    "copd_severity_very_severe":[
+        "Columna dummy: 1 si la severidad de EPOC es VERY SEVERE, 0 en otro caso"
+    ]
+    }
+
+    Pulmo4_dataset = {
+    # Nombre original USMER
+    "usmer":[
+        "Nivel de atencion medica"
+    ],
+    # Nombre original MEDICAL_UNIT
+    "medical_unit":[
+        "Tipo de institucion del sector salud que brindo la atencion"
+    ],
+    # Nombre original SEX
+    "sex":[
+        "Sexo"
+    ],
+    # Nombre original PATIENT_TYPE
+    "patient_type":[
+        "Tipo de paciente"
+    ],
+    # Nombre original DATE_DIED
+    "date_died":[
+        "Fecha de defuncion"
+    ],
+    # Nombre original INTUBED
+    "intubed":[
+        "Intubado"
+    ],
+    # Nombre original PNEUMONIA
+    "p_neumonia":[
+        "Diagnostico de neumonia"
+    ],
+    # Nombre original AGE
+    "age":[
+        "Edad en años"
+    ],
+    # Nombre original PREGNAT
+    "pregnat":[
+        "Embarazada"
+    ],
+    # Nombre original DIABETES
+    "diabetes":[
+        "Diabetes"
+    ],
+    # Nombre original COPD
+    "copd":[
+        "EPOC (Enfermedad Pulmonar Obstructiva Cronica)"
+    ],
+    # Nombre original ASTHMA
+    "asthma":[
+        "Asma"
+    ],
+    # Nombre original INMSUPR
+    "inmsupr":[
+        "Inmunosupresion"
+    ],
+    # Nombre original Hipertencion
+    "hypertension":[
+        "Hipertencion"
+    ],
+    # Nombre original OTHER_DISEASE
+    "other_disease":[
+        "Otras enfermedades"
+    ],
+    # Nombre original CARDIOVASCULAR
+    "cardiovascular":[
+        "Enfermedad cardiovascular"
+    ],
+    # Nombre original OBESITY
+    "obesity":[
+        "Obesidad"
+    ],
+    # Nombre original RENAL_CHRONIC
+    "renal_chronic":[
+        "Enfermedad renal cronica"
+    ],
+    # Nombre original TOBACCO
+    "tobacco":[
+        "Consumo de tabaco"
+    ],
+    # Nombre original CLASIFFICATION_FINAL
+    "clasiffication_final":[
+        "Clasificación final del caso (1-3: confirmado COVID, 4-7: no confirmado)"
+    ],
+    # Nombre original ICU
+    "icu":[
+        "Ingreso a UCI"
+    ]
+    }
