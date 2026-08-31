@@ -2,7 +2,7 @@
 # Equivalencias entre las descripciones de las variables
 
 # Esta nomenclatura pertenece al dataset de Diabetes1
-diabetes1_dataset = {
+Diabetes1_dataset = {
     # Nombre original HighBP
     "High_bp":[
         " Presión arterial alta "
@@ -93,7 +93,7 @@ diabetes1_dataset = {
     ]
 }
 
-# Esta nomenclatura pertenece al dataset de Chrinic Kidney Disease
+# Esta nomenclatura pertenece al dataset de Chronic Kidney Disease
 Kidney1_dataset = {
     # Nombre original age
     "age":[
