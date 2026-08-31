@@ -4,91 +4,91 @@
 # Esta nomenclatura pertenece al dataset de Diabetes1
 diabetes1_dataset = {
     # Nombre original HighBP
-    "PAA":[
+    "High_bp":[
         " Presión arterial alta "
     ],
     # Nombre original HighChol
-    "CoAl":[
+    "High_Chol":[
         "Colesterol alto"
     ],
     # Nombre original CholCheck
-    "CC5A":[
+    "Chol_Check":[
        "Control de colesterol realizado en los últimos 5 años"
    ],
     # Nombre original BMI
-    "IMC":[
+    "bmi":[
         "Índice de masa corporal"
     ],
     # Nombre original Smoker
-    "F100C":[
+    "smoker":[
      "¿Ha fumado al menos 100 cigarrillos en toda su vida? "  
     ],
     # Nombre original Stroke
-    "ADC":[
+    "stroke":[
         "¿Alguna vez le han dicho que ha tenido un derrame cerebral?"
     ],
     # Nombre original  HeartDiseaseorAttack
-    "ECI":[
+    "heart_diseaseor_attack":[
     " ¿Alguna vez le han dicho que tiene enfermedad coronaria o infarto de miocardio? "       
     ],
     # Nombre original PhysActivity
-    "ACF":[
+    "phys_activity":[
         "¿Ha realizado actividad física en los últimos 30 días, aparte de su trabajo habitual?"
     ],
     #  Nombre original Fruits
-    "CF":[
+    "fruits":[
         "¿Consume frutas al menos una vez al día?"
     ],
     # Nombre original Veggies
-    "CV":[
+    "veggies":[
         "¿Consume verduras al menos una vez al día?"
     ],
     # Nombre original HvyAlcoholConsump
-    "CAE":[
+    "hvy_alcohol_consump":[
         "Bebedores empedernidos"
     ],
     # Nombre original AnyHealthcare
-    "CoM":[
+    "any_healthcare":[
         "¿Tiene algún tipo de cobertura de seguro médico, o tiene algún tipo de plan de pago para la atención médica?"
     ],
     # Nombre original NoDocbcCost
-    "SAMC":[
+    "no_docbc_cost":[
         "¿Ha dejado de ir al médico en el último año debido a los costos?"
     ],
     # Nombre original GenHlth
-    "SaG":[
+    "gen_hlth":[
         "¿Cómo calificaría su salud en general?"
     ],
     # Nombre original MentHlth
-    "SaludMental":[
+    "ment_hlth":[
         "Ahora, pensando en su salud mental, ¿cuántos días durante los últimos 30 días su salud mental no fue buena?"
     ],
     # Nombre original PhysHlth
-    "SaluudFisica":[
+    "phys_hlth":[
         "Ahora, pensando en su salud física, ¿cuántos días durante los últimos 30 días su salud física no fue buena?"
     ],
     # Nombre original DiffWalk
-    "DCE":[
+    "diff_walk":[
         "¿Tiene alguna dificultad para caminar o subir escaleras?"
     ],
     # Nombre original Sex
-    "Sexo":[
+    "sex":[
         "Sexo"
     ],
     # Nombre original Age
-    "Edad":[
+    "age":[
         " Categoría de edad de 13 niveles (1 = 18-24, 2 = 25-29, ..., 13 = 80 o más) "
     ],
     # Nombre original Education
-    "Educación":[
+    "education":[
         "Nivel de educación"
     ],
     # Nombre original Income
-    "Ingresos":[
+    "income":[
         "Nivel de ingresos"
     ],
     # Nombre original Diabetic
-    "DiDia":[
+    "diabetic":[
         "¿Alguna vez le han dicho que tiene diabetes?"
     ]
 }
@@ -96,103 +96,103 @@ diabetes1_dataset = {
 # Esta nomenclatura pertenece al dataset de Chrinic Kidney Disease
 Kidney1_dataset = {
     # Nombre original age
-    "Edad":[
+    "age":[
         "Edad en anios"
     ],
     # Nombre original bp
-    "PAA":[
-        "Presion arterial"
+    "high_bp":[
+        "Presion sanguinea"
     ],
     # Nombre original sg   
-    "GE":[
+    "sg":[
         "Gravedad especifica"
     ],
     # Nombre original al
-    "AL":[
+    "al":[
         "Albumina"
     ],
     # Nombre original su
-    "Azucar":[
+    "su":[
         "Azucar"
     ],
     # Nombre original rbc
-    "GR":[
+    "rbc":[
         "Glóbulos rojos"
     ],
     # Nombre original pc
-    "CPus":[
+    "pc":[
         "Células de pus"
     ],
     # Nombre original pcc
-    "  GcPus":[
+    "pcc":[
         "Células de pus"
     ],
     # Nombre original ba
-    "Bacterias":[
+    "ba":[
         "Bacterias"
     ],
     # Nombre original bgr
-    "Glucosa":[
+    "bgr":[
         "Glucosa en sangre"
     ],
     # Nombre original bu
-    "Urea":[
+    "bu":[
         "Urea en sangre"
     ],
     # Nombre original sc
-    "Creatinina":[
+    "sc":[
         "Creatinina serica"
     ],
     # Nombre original sod
-    "Sodio":[
+    "sod":[
         "Sodio"
     ],
     # Nombre original pot
-    "Potasio":[
+    "pot":[
         "Potasio"
     ],
     # Nombre original hemo
-    "Hemoglobina":[
+    "hemo":[
         "Hemoglobina"
     ],
     # Nombre original pcv
-    "VCE":[
+    "pcv":[
         "volumen celular empaquetado"
     ],
     # Nombre original wc
-    "RGB":[
+    "white_blood_cell_count":[
         "Recuento de glóbulos blancos"
     ],
     # Nombre original rc
-    "RGR":[
+    "rc":[
         "Recuento de glóbulos rojos"
     ],
     # Nombre original htn
-    "HTA":[
+    "htn":[
         "Hipertensión"
     ],
     # Nombre original dm
-    "DiaM":[
+    "dm":[
         "Diabetes mellitus"
     ],
     # Nombre original cad
-    "EAC":[ 
+    "cad":[ 
         "enfermedad de las arterias coronarias"
     ],
     # Nombre original appet
-    "Apetito":[
+    "appet":[
         "Apetito"
     ],
     # Nombre original pe
-    "Edema":[
+    "pe":[
         "Edema de pedal"
     ],
     # Nombre original anemia
-    "Anemia":[
+    "anemia":[
         "Anemia"
     ],
     # Nombre original class
-    "Clase":[
+    "class":[
         "Clase)"
     ]
 }
@@ -200,304 +200,676 @@ Kidney1_dataset = {
 # Esta nomenclatura pertenece al dataset de Heart Disease
 Heart1_dataset = {
     # Nombre original id
-    "ID":[
+    "id":[
         "Identificador del paciente"
     ],
     # Nombre original age
-    "Edad":[
+    "age":[
         "Edad del paciente en dias"
     ],
     # Nombre original Gender
-    "Sexo":[
+    "gender":[
         "Sexo del paciente"
     ],
     # Nombre original Height
-    "Altura":[
+    "height":[
         "Altura del paciente en cm"
     ],
     # Nombre original Weight
-    "Peso":[
+    "weight":[
         "Peso del paciente en kg"
     ],
     # Nombre original ap_hi
-    "PAS":[
+    "ap_hi":[
         "Presion arterial sistolica"
     ],
     # Nombre original ap_lo
-    "PAD":[
+    "ap_lo":[
         "Presion arterial diastolica"
     ],
     # Nombre original Cholesterol
-    "Col":[
+    "cholesterol":[
         "Colesterol del paciente "
     ],
     # Nombre original Glucose
-    "Glucosa":[
+    "glucose":[
         "Nivel Glucosa"
     ],
     # Nombre original Smoke
-    "Fumador":[
+    "smoke":[
         "Indica si el paciente fuma"
     ],
     # Nombre original alco
-    "Alcohol":[
+    "alcol":[
         "Indica si el paciente consume alcohol"
     ],
     # Nombre original Active
-    "Activo":[
+    "active":[
         "Indica si el paciente realiza actividad fisica"
     ],
     # Nombre original Cardio
-    "Cardiopatia":[
+    "cardio":[
         "Indica si el paciente tiene enfermedad cardiovascular"
     ]
 }
 
 Heart2_dataset = {
     # Nombre original age
-    "Edad":[
+    "age":[
         "Edad en anios"
     ],
     # Nombre original sex
-    "Sexo":[
+    "sex":[
         "Sexo del paciente"
     ],
     # Nombre original cp
-    "TDT":[
+    "cp":[
         "Tipo de dolor toracico"
     ],
     # Nombre original trestbps
-    "PAR":[
+    "trestbps":[
         "Presion arterial en reposo"
     ],
     # Nombre original chol
-    "Col":[
+    "chol":[
         "Colesterol serico en mg/dl"
     ],
     # Nombre original fbs
-    "ASA":[
+    "fbs":[
         "Nivel de glucosa en sangre en ayunas"
     ],
     # Nombre original restecg
-    "EER":[
+    "restecg":[
         "Electrocardiograma en reposo"
     ],
     # Nombre original thalach
-    "FCM":[
+    "thalach":[
         "Frecuencia cardiaca maxima"
     ],
     # Nombre original exang
-    "AIE":[
+    "exang":[
         "Indica si el paciente tiene angina inducida por ejercicio"
     ],
     # Nombre original oldpeak
-    "DIpE":[
+    "old_peak":[
         "Depresion del segmento ST inducida por el ejercicio"
     ],
     # Nombre original slope
-    "Pendiente":[
+    "slope":[
         "Pendiente del segmento ST"
     ],
     # Nombre original ca
-    "CA":[
+    "ca":[
         "Numero de vasos principales (0-3) coloreados por fluoroscopia"
     ],
     # Nombre original thal
-    "TAL":[
+    "thal":[
         "Resultado de la prueba de estres con talio"
     ],
     # Nombre original num
-    "Cardiopatia":[
+    "heart_disease_diagnosis":[
         "Diagnostico de enfermedad cardiaca"
     ]
 }
 
 Heart3_dataset = {
     # Nombre original patientind
-    "ID":[
+    "id":[
         "Identificador del paciente"
     ],
     # Nombre original age
-    "Edad":[
+    "age":[
         "Edad del paciente (anios)"
     ],
     # Nombre original gender
-    "Sexo":[
+    "sex":[
         "Sexo del paciente"
     ],
     # Nombre original chestpain
-    "TDT":[
+    "cp":[
         "Tipo de dolor en el pecho"
     ],
     # Nombre original restingBP
-    "PAR":[
+    "trestbps":[
         "Presion arterial en reposo"
     ],
     # Nombre original serumchlestrol
-    "ColS":[
+    "chol":[
         "Colesterol serico en mg/dl"
     ],
     # Nombre original fastingbooldsugar
-    "ASA":[
+    "fbs":[
         "Azucar en sangre en ayunas"
     ],
     # Nombre original restingelectro
-    "RER":[
+    "restecg":[
         "Resultados Electrocardiograficos en reposo"
     ],
     # Nombre original maxheartrate
-    "FCM":[
+    "thalach":[
         "Frecuencia cardiaca maxima alcanzada"
     ],
     # Nombre original exerciseangia
-    "AIE":[
+    "exang":[
         "Indica si el paciente tiene angina inducida por ejercicio"
     ],
     # Nombre original oldpeak
-    "DIpE":[
+    "oldpeak":[
         "Depresion del ST inducida por el ejercicio en relacion con el reposo"
     ],
     # Nombre original slope
-    "Pendiente":[
+    "slope":[
         "Pendiente del segmento ST"
     ],
     # Nombre original noofmajorvessels
-    "CA":[
+    "ca":[
         "Numero de vasos principales (0-3) coloreados por fluoroscopia"
     ],
     # Nombre original target
-    "Cardiopatia":[
+    "heart_disease_diagnosis":[
         "Presencia de enfermedad cardiaca"
     ]
 }
 
 Heart4_dataset = {
     # Nombre original age
-    "Edad":[
+    "age":[
         "Edad del paciente (anios)"
     ],
     # Nombre original anaemia
-    "Anaemia":[
+    "anaemia":[
         "Disminucion de globulos rojos o hemoglobina"
     ],
     # Nombre original creatinine_phosphokinase (cpk)
-    "CPK":[
+    "creatinine_phosphokinase":[
         "Nivel de la enzima CPK en sangre"
     ],
     # Nombre original diabetes
-    "Diabetes":[
+    "diabetes":[
         "Si el paciente tiene diabetes"
     ],
     # Nombre original ejection_fraction
-    "PSCC":[
+    "ejection_fraction":[
         "Porcentaje de sangre que sale del corazón en cada contracción (porcentaje)"
     ],
     # Nombre original high_blood_pressure
-    "HTA":[
+    "high_blood_pressure":[
         "Indica si el paciente tiene hipertencion"
     ],
     # Nombre original platelets
-    "Plaquetas":[
+    "platelets":[
         "Plaquetas en la sangre"
     ],
     # Nombre original Sex
-    "Sexo":[
+    "sex":[
         "Sexo del paciente"
     ],
     # Nombre original serum_creatinine
-    "Creatinina":[
+    "creatinine":[
         "Nivel de creatinina serica en sangre"
     ],
     # Nombre original serum_sodium
-    "Sodio":[
+    "sod":[
         "Nivel de sodio en sangre"
     ],
     # Nombre original smoking
-    "Fumador":[
+    "smoking":[
         "Indica si el paciente fuma"
     ],
     # Nombre original time
-    "Tiempo":[
+    "time":[
         "Tiempo de seguimiento del paciente"
     ],
     # Nombre original death_event
-    "EventoMuerte":[
+    "death_event":[
         "Si el paciente fallecio durante el periodo de seguimiento"
     ]
 }
 
 Heart5_dataset = {
     # Nombre original HeartDisease
-    "Cardiopatia":[
+    "heart_disease":[
         "Indica si el paciente tiene enfermedad cardiaca"
     ],
     # Nombre original BMI
-    "IMC":[
+    "bmi":[
         "Indice de masa corporal del paciente"
     ],
     # Nombre original Smoking
-    "Fumador":[
+    "smoking":[
         "Indica si el paciente a fumado al menos5 paquete de cigarrillos en su vida"
     ],
     # Nombre original AlcoholDrinking
-    "Alcohol":[
+    "alcohol_drinking":[
         "Indica si el paciente es un bebedor excesivo de alcohol"
     ],
     # Nombre original Stroke
-    "ADC":[
+    "stroke":[
         "Indica si el paciente ha tenido un derrame cerebral"
     ],
     # Nombre original PhysicalHealth
-    "SaludFisica":[
+    "physical_health":[
         "Numero de dias en los ultimos 30 dias en que la salud fisica del paciente no fue buena"
     ],
     # Nombre original MentalHealth
-    "SaludMental":[
+    "mental_health":[
         "Numero de dias en los ultimos 30 dias en que la salud mental del paciente no fue buena"
     ],
     # Nombre original DiffWalking
-    "DCE":[
+    "diff_walking":[
         "Indica si el paciente tiene dificultad para caminar o subir escaleras"
     ],
     # Nombre original Sex
-    "Sexo":[
+    "sex":[
         "Sexo del paciente"
     ],
     # Nombre original AgeCategory
-    "Edad":[
+    "age_category":[
         "Categoria de edad del paciente"
     ],
     # Nombre original Race
-    "Raza":[
+    "race":[
         "Raza del paciente"
     ],
     # Nombre original Diabetic
-    "Diabetes":[
+    "diabetes":[
         "Indica si el paciente tiene diabetes"
     ],
     # Nombre original PhysicalActivity
-    "ActividadFisica":[
+    "physical_activity":[
         "Indica si el paciente realiza actividad fisica en los ultimos 30 dias"
     ],
     # Nombre original GenHealth
-    "SaludGeneral":[
+    "gen_health":[
         "Nivel de salud general percibida por el paciente"
     ],
     # Nombre original SleepTime
-    "TiempoSueño":[
+    "sleep_time":[
         "Horas de suenio promedio del paciente"
     ],
     # Nombre original Asthma
-    "Asma":[
+    "asthma":[
         "Indica si el paciente tiene asma"
     ],
     # Nombre original KidneyDisease
-    "EnfermedadRenal":[
+    "kidney_disease":[
         "Indica si el paciente tiene enfermedad renal"
     ],
     # Nombre original SkinCancer
-    "CancerPiel":[
+    "skin_cancer":[
         "Indica si el paciente tiene cancer de piel"
     ]
 }
 
+Liver1_dataset = {
+    # Nombre original ID
+    "ID":[
+        "Identificador unico de cada paciente"
+    ],
+    # Nombre original N_Days
+    "n_days":[
+        "Numero de dias entre el registro y el estudio o muerte"
+    ],
+    # Nombre original Status
+    "status":[
+        "Indica el estado del paciente"
+    ],
+    # Nombre original Drug
+    "drug":[
+        "Indica el medicamento que el paciente esta tomando"
+    ],
+    # Nombre original Age
+    "age":[
+        "Edad del paciente en dias"
+    ],
+    # Nombre original Sex
+    "sex":[
+        "Sexo del paciente"
+    ],
+    # Nombre original Ascites
+    "ascites":[
+        "Indica si el paciente tiene ascitis"
+    ],
+    # Nombre original Hepatomegaly
+    "hepatomegaly":[
+        "Presencia de hepatomegalia"
+    ],
+    # Nombre original Spiders
+    "spiders":[
+        "Presencia de arañas vasculares"
+    ],
+    # Nombre original Edema
+    "edema":[
+        "Presencia de edema"
+    ],
+    # Nombre original Bilirubin
+    "bilirrubin":[
+        "Nivel de bilirrubina serica"
+    ],
+    # Nombre original Cholesterol
+    "cholesterol":[
+        "Nivel de colesterol serico"
+    ],
+    # Nombre original Albumin
+    "albumin":[
+        "Nivel de albumina serica"
+    ],
+    # Nombre original Copper
+    "copper":[
+        "Nivel de cobre en la orina"
+    ],
+    # Nombre original Alk_Phos
+    "alk_phos":[
+        "Nivel de fosfatasa alcalina serica"
+    ],
+    # Nombre original SGOT
+    "sgot":[
+        "Nivel de transaminasa glutámica-oxaloacética serica"
+    ],
+    # Nombre original Tryglicerides
+    "triglicerides":[
+        "Nivel de trigliceridos"
+    ],
+    # Nombre original Platelets
+    "platelets":[
+        "Recuento de plaquetas"
+    ],
+    # Nombre original Prothrombin
+    "prothrombin":[
+        "Tiempo de protrombina"
+    ],
+    # Nombre original Stage
+    "stage":[
+        "Etapa de la cirrosis"
+    ]
+}
+
+Liver2_dataset = {
+    # Nombre original Drug
+    "drug":[
+        "Tipo de farmaco administrado"
+    ],
+    # Nombre original Age
+    "age":[
+        "Edad del paciente en dias"
+    ],
+    # Nombre original Sex
+    "sex":[
+        "Sexo del paciente"
+    ],
+    # Nombre original Ascites
+    "ascites":[
+        "Presencia de artritis"
+    ],
+    # Nombre original Hepatomegaly
+    "hepatomegaly":[
+        "Presencia de hepatomegalia"
+    ],
+    # Nombre original Spiders
+    "spiders":[
+        "Presencia de arañas vasculares"
+    ],
+    # Nombre original Edema
+    "edema":[
+        "Presencia de edema"
+    ],
+    # Nombre original Bilirubin
+    "bilirrubin":[
+        "Bilirrubina serica"
+    ],
+    # Nombre original Cholesterol
+    "cholesterol":[
+        "Colesterol serico"
+    ],
+    # Nombre original Albumin
+    "albumin":[
+        "Albumina en gm/dl"
+    ],
+    # Nombre original Copper
+    "copper":[
+        "Cobre en orina"
+    ],
+    # Nombre original Alk_Phos
+    "alk_phos":[
+        "Fosfatasa alcalina en U/L"
+    ],
+    # Nombre original SGOT
+    "sgot":[
+        "Transaminasa glutámica-oxaloacética en U/L"
+    ],
+    # Nombre original Tryglicerides
+    "triglicerides":[
+        "Trigliceridos en mg/dl"
+    ],
+    # Nombre original Platelets
+    "platelets":[
+        "Plaquetas en /mm3"
+    ],
+    # Nombre original Prothrombin
+    "prothrombin":[
+        "Tiempo de protrombina en segundos"
+    ],
+    # Nombre original Stage
+    "stage":[
+        "Etapa histologica de la enfermedad"
+    ],
+    # Nombre original Status
+    "status":[
+        "Estado del paciente"
+    ]
+}
+
+Liver3_dataset = {
+    # Nombre original Patient No.
+    "id":[
+        "Numero de identificacion unico para cada paciente"
+    ],
+    # Nombre original Age
+    "age":[
+        "Edad del paciente"
+    ],
+    # Nombre original Gender
+    "sex":[
+        "Genero del paciente"
+    ],
+    # Nombre original Total Height
+    "height":[
+        "Altura del paciente en cm"
+    ],
+    # Nombre original Total Weight
+    "weight":[
+        "Peso del paciente en kg"
+    ],
+    # Nombre original Body Mass Index
+    "bmi":[
+        "Indice de masa corporal"
+    ],
+    # Nombre original Waist Circumference
+    "waist_circumference":[
+        "Circunferencia de la cintura del paciente en cm"
+    ],
+    # Nombre original Hip Circumference
+    "hip_circumference":[
+        "Circunferencia de la cadera del paciente en cm"
+    ],
+    # Nombre original Systolic Blood Pressure
+    "systolic_bp":[
+        "Presion arterial sistolica"
+    ],
+    # Nombre original Diastolic Blood Pressure
+    "diastolic_bp":[
+        "Presion arterial diastolica"
+    ],
+    # Nombre original Diabetes Mellitus
+    "diabetes":[
+        "Indicador de diabetes"
+    ],
+    # Nombre original Hypertension
+    "hypertension":[
+        "Indicador de hipertension"
+    ],
+    # Nombre original Hyperlipidemia
+    "hyperlipidemia":[
+        "Indicador de hiperlipidemia"
+    ],
+    # Nombre original Metabolic syndrome
+    "metabolic_syndrome":[
+        "Indicador de sindrome metabolico"
+    ],
+    # Nombre original Smoking Status
+    "smoking":[
+        "Estado de tabaquismo"
+    ],
+    # Nombre original AST
+    "ast":[
+        "Nivel de aspartato aminotransferasa"
+    ],
+    # Nombre original ALT
+    "alt":[
+        "Nivel de alanina aminotransferasa"
+    ],
+    # Nombre original ALP
+    "alp":[
+        "Nivel de fosfatasa alcalina"
+    ],
+    # Nombre original GGT
+    "ggt":[
+        "Nivel de Gamma-glutamil transferasa"
+    ],
+    # Nombre original LDH
+    "ldh":[
+        "Nivel de lactato deshidrogenasa"
+    ],
+    # Nombre original Total Bilirubin
+    "bilirubin":[
+        "Nivel de bilirubina total"
+    ],
+    # Nombre original Direc Bilirubin
+    "direct_bilirubin":[
+        "Nivel de bilirubina directa"
+    ],
+    # Nombre original Indirec Bilirubin
+    "indirec_bilirubin":[
+        "Nivel de bilirubina indirecto"
+    ],
+    # Nombre original Albumin
+    "albumin":[
+        "Nivel de albumina"
+    ],
+    # Nombre original Total Protein
+    "total_protein":[
+        "Nivel de proteinas totales"
+    ],
+    # Nombre original Urea
+    "urea":[
+        "Nivel de urea"
+    ],
+    # Nombre original Creatinine Clearance
+    "creatinine_clearance":[
+        "Nivel de aclaramiento de creatinina"
+    ],
+    # Nombre original Gamma Globulini
+    "gamma_globulini":[
+        "Nivel de gamma globulina"
+    ],
+    # Nombre original Cholesterol
+    "cholesterol":[
+        "Nivel del colesterol"
+    ],
+    # Nombre original Triglycerides
+    "triglycerides":[
+        "Nivel de trigliceridos"
+    ],
+    # Nombre original LDL
+    "ldl":[
+        "Nivel de colesterol LDL"
+    ],
+    # Nombre original HDL
+    "hdl":[
+        "Nivel de colesterol HDL"
+    ],
+    # Nombre original VLDL
+    "vldl":[
+        "Nivel de colesterol VLDL"
+    ],
+    # Nombre original Uric Acid
+    "uric_acid":[
+        "Nivel de acido urico"
+    ],
+    # Nombre orginal White Blood Cells
+    "white_blood_cell_count":[
+        "Recuento de globulos blancos"
+    ],
+    # Nombre original Red Blood Cells
+    "Red_blood_cell_count":[
+        "Recuento globulos rojos"
+    ],
+    # Nombre original Hemoglobin
+    "hemoglobin":[
+        "Nivel de hemoglobina"
+    ],
+    # Nombre original Hematocrit
+    "hematocrit":[
+        "Nivel de hematocrito"
+    ],
+    # Nombre original Platelet
+    "platelet":[
+        "Recuento de plaquetas"
+    ],
+    # Nombre orignal Trombosit
+    "trombosit":[
+        "Nivel de trombocitos"
+    ],
+    # Nombre original Mean Corpuscular Volume
+    "mean_corpuscular_volume":[
+        "Volumen corpuscular medio"
+    ],
+    # Nombre original Mean Platelet Volume
+    "mean_platelet_volume":[
+        "Volumen plaquetario medio"
+    ],
+    # Nombre original INR
+    "inr":[
+        "Razon normalizada internacional"
+    ],
+    # Nombre original Ferritin
+    "ferritin":[
+        "Nivel de ferritina"
+    ],
+    # Nombre original Glucose
+    "glucose":[
+        "Nivel de glucosa"
+    ],
+    # Nombre original BUN
+    "bun":[
+        "Nivel de nitrogeno ureico en sangre "
+    ],
+    # Nombre original Creatinine
+    "creatinine":[
+        "Nivel de creatinina"
+    ],
+    # Nombre original Hemoglobin-A1C
+    "hemoglobin_a1c":[
+        "Nivel de hemoglobina A1C"
+    ],
+    # Nombre original Steatosis
+    "steatosis":[
+        "Grado de esteatosis hepatica"
+    ],
+    # Nombre original Activity
+    "activity":[
+        "Grado de actividad inflamatoria hepatica"
+    ],
+    # Nombre original Fibrosis
+    "fibrosis":[
+        "Grado de fibrosis hepatica"
+    ],
+    # Nombre original NAS score according Kleiner
+    "kleiner_nas_score":[
+        "Puntuación NAS (NASH Activity Score) según Kleiner."
+    ],
+    # Nombre original 
+    "nas_fibrosis_flag":[
+        "Indicator if NAS score ≥ 4 and fibrosis stage ≥ 2 (1 = Yes, 0 = No)."
+    ],
+}
