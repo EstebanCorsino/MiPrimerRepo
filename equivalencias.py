@@ -1473,8 +1473,7 @@ Pulmo4_dataset = {
     ]
 }
 
-MAPEO_VARIABLES_GRAFO =
-{
+EQUIVALENCIAS_VARIABLES = {
     "age": [
         "Categoria de edad del encuestado",
         "Categoría de edad de 13 niveles (1 = 18-24, 2 = 25-29, ..., 13 = 80 o más)",
