@@ -505,7 +505,7 @@ Heart5_dataset = {
 
 Liver1_dataset = {
     # Nombre original ID
-    "ID":[
+    "id":[
         "Identificador unico de cada paciente"
     ],
     # Nombre original N_Days
@@ -581,7 +581,7 @@ Liver1_dataset = {
         "Tiempo de protrombina"
     ],
     # Nombre original Stage
-    "stage":[
+    "cirrosis_stage":[
         "Etapa de la cirrosis"
     ]
 }
@@ -1170,7 +1170,7 @@ Pulmo2_dataset = {
         "Si el encuestado ha tenido asma"
     ],
     # Nombre original HadSkinCancer
-    "had_skin_cancer":[
+    "skin_cancer":[
         "Si el encuestado ha tenido cancer de piel"
     ],
     # Nombre original HadCOPD

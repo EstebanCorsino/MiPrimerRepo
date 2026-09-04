@@ -1,123 +1,35 @@
 EQUIVALENCIAS_VARIABLES = {
-    "age": [
-        "Categoria de edad del encuestado",
-        "Categoría de edad de 13 niveles (1 = 18-24, 2 = 25-29, ..., 13 = 80 o más)",
-        "Edad del paciente",
-        "Edad del paciente (anios)",
-        "Edad del paciente en anios",
-        "Edad del paciente en dias",
-        "Edad en anios",
-        "Edad en años"
-    ],
-    "HighBP": [
-        "Hipertencion",
-        "Hipertensión",
+    {
+    "high_blood_pressure": [
+        " Presión arterial alta ",
         "Indica si el paciente tiene hipertencion",
-        "Indicador de hipertension",
-        "Indicador de si el paciente tiene hipertension",
-        "Presion sanguinea",
-        "Presión arterial alta"
+        "Presion sanguinea"
     ],
-    "sg": [
-        "Gravedad especifica"
+    "High_Cholesterol": [
+        "Colesterol alto"
     ],
-    "al": [
-        "Albumina"
-    ],
-    "su": [
-        "Azucar"
-    ],
-    "rbc": [
-        "Glóbulos rojos"
-    ],
-    "pc": [
-        "Células de pus"
-    ],
-    "pcc": [
-        "Células de pus"
-    ],
-    "ba": [
-        "Bacterias"
-    ],
-    "bgr": [
-        "Glucosa en sangre"
-    ],
-    "bu": [
-        "Urea en sangre"
-    ],
-    "sc": [
-        "Creatinina serica"
-    ],
-    "sod": [
-        "Nivel de sodio",
-        "Nivel de sodio en sangre",
-        "Sodio"
-    ],
-    "pot": [
-        "Potasio"
-    ],
-    "hemo": [
-        "Hemoglobina"
-    ],
-    "pcv": [
-        "volumen celular empaquetado"
-    ],
-    "white_blood_cell_count": [
-        "Recuento de globulos blancos",
-        "Recuento de glóbulos blancos"
-    ],
-    "rc": [
-        "Recuento de glóbulos rojos"
-    ],
-    "dm": [
-        "Diabetes mellitus"
-    ],
-    "cad": [
-        "enfermedad de las arterias coronarias"
-    ],
-    "appet": [
-        "Apetito"
-    ],
-    "pe": [
-        "Edema de pedal"
-    ],
-    "anemia": [
-        "Anemia"
-    ],
-    "class": [
-        "Clase)"
-    ],
-    "HighChol": [
-        "Colesterol alto",
-        "Colesterol del paciente",
-        "Colesterol serico",
-        "Colesterol serico en mg/dl",
-        "Nivel de colesterol serico",
-        "Nivel del colesterol"
-    ],
-    "CholCheck": [
+    "Cholesterol_Check": [
         "Control de colesterol realizado en los últimos 5 años"
     ],
-    "BMI": [
-        "Indice de masa corporal",
-        "Indice de masa corporal del encuestado",
+    "bmi": [
+        "Índice de masa corporal",
         "Indice de masa corporal del paciente",
-        "Índice de masa corporal"
+        "Indice de masa corporal",
+        "Indice de masa corporal del encuestado"
     ],
-    "Smoker": [
+    "smoker": [
+        "¿Ha fumado al menos 100 cigarrillos en toda su vida? ",
         "Estado de fumador del encuestado",
-        "Estado de fumador del paciente",
-        "Estado de tabaquismo",
-        "Indica si el paciente a fumado al menos5 paquete de cigarrillos en su vida",
-        "Indica si el paciente fuma",
-        "¿Ha fumado al menos 100 cigarrillos en toda su vida?"
+        "Estado de fumador del paciente"
     ],
     "stroke": [
+        "¿Alguna vez le han dicho que ha tenido un derrame cerebral?",
         "Indica si el paciente ha tenido un derrame cerebral",
-        "¿Alguna vez le han dicho que ha tenido un derrame cerebral?"
+        "Si el encuestado ha tenido un derrame cerebral"
     ],
-    "heart_diseaseor_attack": [
-        "¿Alguna vez le han dicho que tiene enfermedad coronaria o infarto de miocardio?"
+    "coronary_heart_disease": [
+        "¿Alguna vez le han dicho que tiene enfermedad coronaria o infarto de miocardio?",
+        "Enfermedad de las arterias coronarias"
     ],
     "phys_activity": [
         "¿Ha realizado actividad física en los últimos 30 días, aparte de su trabajo habitual?"
@@ -128,86 +40,111 @@ EQUIVALENCIAS_VARIABLES = {
     "veggies": [
         "¿Consume verduras al menos una vez al día?"
     ],
-    "hvy_alcohol_consump": [
-        "Bebedores empedernidos"
+    "alcohol": [
+        "Bebedores empedernidos",
+        "Indica si el paciente consume alcohol",
+        "Indica si el paciente es un bebedor excesivo de alcohol",
+        "Si el encuestado es bebedor de alcohol"
     ],
-    "any_healthcare": [
+    "healthcare_coverage": [
         "¿Tiene algún tipo de cobertura de seguro médico, o tiene algún tipo de plan de pago para la atención médica?"
     ],
     "no_docbc_cost": [
         "¿Ha dejado de ir al médico en el último año debido a los costos?"
     ],
-    "gen_hlth": [
-        "¿Cómo calificaría su salud en general?"
+    "general_health": [
+        "¿Cómo calificaría su salud en general?",
+        "Nivel de salud general percibida por el paciente",
+        "Salud general percibida del encuestado"
     ],
-    "ment_hlth": [
-        "Ahora, pensando en su salud mental, ¿cuántos días durante los últimos 30 días su salud mental no fue buena?"
+    "mental_health": [
+        "Ahora, pensando en su salud mental, ¿cuántos días durante los últimos 30 días su salud mental no fue buena?",
+        "Numero de dias en los ultimos 30 dias en que la salud mental del paciente no fue buena",
+        "Numero de dias durante los ultimos 30 en que la salud mental no fue buena"
     ],
-    "phys_hlth": [
-        "Ahora, pensando en su salud física, ¿cuántos días durante los últimos 30 días su salud física no fue buena?"
+    "physical_health": [
+        "Ahora, pensando en su salud física, ¿cuántos días durante los últimos 30 días su salud física no fue buena?",
+        "Numero de dias durante los ultimos 30 en la que la salud fisica no fue buena"
     ],
-    "diff_walk": [
-        "¿Tiene alguna dificultad para caminar o subir escaleras?"
+    "difficulty_walking": [
+        "¿Tiene alguna dificultad para caminar o subir escaleras?",
+        "Indica si el paciente tiene dificultad para caminar o subir escaleras",
+        "Si el encuestado tiene dificultad para caminar"
     ],
     "sex": [
-        "Genero del encuestado",
-        "Genero del paciente",
         "Sexo",
         "Sexo del paciente",
-        "sexo del paciente"
+        "Genero del paciente",
+        "sexo del paciente",
+        "Genero del encuestado"
+    ],
+    "age": [
+        " Categoría de edad de 13 niveles (1 = 18-24, 2 = 25-29, ..., 13 = 80 o más) ",
+        "Edad del paciente en dias",
+        "Edad en anios",
+        "Edad del paciente (anios)",
+        "Categoria de edad del paciente",
+        "Edad del paciente",
+        "Categoria de edad del encuestado",
+        "Cuartil de edad del paciente",
+        "Edad en años"
     ],
     "education": [
-        "Nivel de educación"
+        "Nivel de educación",
+        "Nivel educativo"
     ],
     "income": [
         "Nivel de ingresos"
     ],
-    "diabetic": [
-        "¿Alguna vez le han dicho que tiene diabetes?"
-    ],
     "id": [
         "Identificador del paciente",
+        "Numero de identificacion unico para cada paciente",
         "Identificador unico para cada paciente o registro",
-        "Numero de identificacion unico para cada paciente"
-    ],
-    "gender": [
-        "Sexo del paciente"
+        "Identificador unico de cada paciente"
     ],
     "height": [
-        "Altura del paciente en cm"
+        "Altura del paciente en cm",
+        "Altura del encuestado en metros"
     ],
     "weight": [
-        "Peso del paciente en kg"
+        "Peso del paciente en kg",
+        "Peso del encuestado en kilogramos"
     ],
-    "ap_hi": [
+    "systolic_bp": [
         "Presion arterial sistolica"
     ],
-    "ap_lo": [
+    "diastolic_bp": [
         "Presion arterial diastolica"
+    ],
+    "cholesterol": [
+        "Colesterol del paciente ",
+        "Colesterol serico en mg/dl",
+        "Nivel de colesterol serico",
+        "Colesterol serico",
+        "Nivel del colesterol"
     ],
     "glucose": [
         "Nivel Glucosa",
+        "Nivel de glucosa en sangre en ayunas",
+        "Glucosa en sangre",
         "Nivel de glucosa"
     ],
-    "alcol": [
-        "Indica si el paciente consume alcohol"
+    "smoke": [
+        "Indica si el paciente fuma"
     ],
     "active": [
         "Indica si el paciente realiza actividad fisica"
     ],
-    "cardio": [
-        "Indica si el paciente tiene enfermedad cardiovascular"
+    "cardiovascular": [
+        "Indica si el paciente tiene enfermedad cardiovascular",
+        "Enfermedad cardiovascular"
     ],
-    "cp": [
-        "Tipo de dolor en el pecho",
-        "Tipo de dolor toracico"
+    "chest_pain_type": [
+        "Tipo de dolor toracico",
+        "Tipo de dolor en el pecho"
     ],
-    "trestbps": [
+    "resting_bp": [
         "Presion arterial en reposo"
-    ],
-    "fbs": [
-        "Azucar en sangre en ayunas",
-        "Nivel de glucosa en sangre en ayunas"
     ],
     "restecg": [
         "Electrocardiograma en reposo",
@@ -226,15 +163,20 @@ EQUIVALENCIAS_VARIABLES = {
     "slope": [
         "Pendiente del segmento ST"
     ],
-    "ca": [
+    "num_major_vessels": [
         "Numero de vasos principales (0-3) coloreados por fluoroscopia"
     ],
-    "thal": [
+    "thalium_test_result": [
         "Resultado de la prueba de estres con talio"
     ],
-    "heart_disease_diagnosis": [
+    "heart_disease": [
         "Diagnostico de enfermedad cardiaca",
-        "Presencia de enfermedad cardiaca"
+        "Presencia de enfermedad cardiaca",
+        "Indica si el paciente tiene enfermedad cardiaca"
+    ],
+    "sugar": [
+        "Azucar en sangre en ayunas",
+        "Azucar"
     ],
     "oldpeak": [
         "Depresion del ST inducida por el ejercicio en relacion con el reposo"
@@ -246,25 +188,40 @@ EQUIVALENCIAS_VARIABLES = {
         "Nivel de la enzima CPK en sangre"
     ],
     "diabetes": [
-        "Diabetes",
+        "Si el paciente tiene diabetes",
         "Indica si el paciente tiene diabetes",
+        "Diabetes mellitus",
         "Indicador de diabetes",
-        "Indicador de si el paciente tiene diabetes",
         "Precencia de diabetes",
         "Si el encuestado ha tenido diabetes",
-        "Si el paciente tiene diabetes"
+        "Indicador de si el paciente tiene diabetes",
+        "Diabetes",
+        "¿Alguna vez le han dicho que tiene diabetes?"
     ],
     "ejection_fraction": [
         "Porcentaje de sangre que sale del corazón en cada contracción (porcentaje)"
     ],
     "platelets": [
-        "Plaquetas en /mm3",
         "Plaquetas en la sangre",
-        "Recuento de plaquetas"
+        "Recuento de plaquetas",
+        "Plaquetas en /mm3"
     ],
     "creatinine": [
+        "Nivel de creatinina serica en sangre",
+        "Creatinina serica",
         "Nivel de creatinina",
-        "Nivel de creatinina serica en sangre"
+        "Nivel de creatinina "
+    ],
+    "sodium": [
+        "Nivel de sodio en sangre",
+        "Sodio",
+        "Nivel de sodio"
+    ],
+    "smoking": [
+        "Indica si el paciente fuma",
+        "Indica si el paciente a fumado al menos 5 paquete de cigarrillos en su vida",
+        "Estado de tabaquismo",
+        "Consumo de tabaco"
     ],
     "time": [
         "Tiempo de seguimiento del paciente"
@@ -272,56 +229,96 @@ EQUIVALENCIAS_VARIABLES = {
     "death_event": [
         "Si el paciente fallecio durante el periodo de seguimiento"
     ],
-    "heart_disease": [
-        "Indica si el paciente tiene enfermedad cardiaca"
-    ],
-    "alcohol_drinking": [
-        "Indica si el paciente es un bebedor excesivo de alcohol"
-    ],
-    "physical_health": [
+    "physical_health_days": [
         "Numero de dias en los ultimos 30 dias en que la salud fisica del paciente no fue buena"
     ],
-    "mental_health": [
-        "Numero de dias en los ultimos 30 dias en que la salud mental del paciente no fue buena"
-    ],
-    "diff_walking": [
-        "Indica si el paciente tiene dificultad para caminar o subir escaleras"
-    ],
-    "age_category": [
-        "Categoria de edad del paciente"
-    ],
     "race": [
-        "Categoria de raza/etnia del encuestado",
-        "Raza del paciente"
+        "Raza del paciente",
+        "Categoria de raza/etnia del encuestado"
     ],
     "physical_activity": [
         "Indica si el paciente realiza actividad fisica en los ultimos 30 dias"
-    ],
-    "gen_health": [
-        "Nivel de salud general percibida por el paciente"
     ],
     "sleep_time": [
         "Horas de suenio promedio del paciente"
     ],
     "asthma": [
-        "Asma",
-        "Indica si el paciente tiene asma"
+        "Indica si el paciente tiene asma",
+        "Si el encuestado ha tenido asma",
+        "Asma"
     ],
     "kidney_disease": [
-        "Indica si el paciente tiene enfermedad renal"
+        "Indica si el paciente tiene enfermedad renal",
+        "Indica si el paciente tiene enfermedad renal crónica",
+        "Si el encuestado ha tenido enfermedad renal",
+        "Enfermedad renal cronica"
     ],
     "skin_cancer": [
-        "Indica si el paciente tiene cancer de piel"
+        "Indica si el paciente tiene cancer de piel",
+        "Si el encuestado ha tenido cancer de piel"
     ],
-    "ID": [
-        "Identificador unico de cada paciente"
+    "kidney_specific_gravity": [
+        "Gravedad especifica"
+    ],
+    "albumin": [
+        "Albumina",
+        "Nivel de albumina serica",
+        "Albumina en gm/dl",
+        "Nivel de albumina"
+    ],
+    "red_blood_cell_count": [
+        "Recuento de glóbulos rojos",
+        "Recuento globulos rojos"
+    ],
+    "pus_cells": [
+        "Células de pus"
+    ],
+    "pus_cells_grams": [
+        "Gramos de Células de pus"
+    ],
+    "bacteria": [
+        "Bacterias"
+    ],
+    "urea": [
+        "Urea en sangre",
+        "Nivel de urea"
+    ],
+    "pot": [
+        "Potasio"
+    ],
+    "hemoglobin": [
+        "Hemoglobina",
+        "Nivel de hemoglobina"
+    ],
+    "hematocrit": [
+        "volumen celular empaquetado",
+        "Nivel de hematocrito"
+    ],
+    "white_blood_cell_count": [
+        "Recuento de glóbulos blancos",
+        "Recuento de globulos blancos"
+    ],
+    "hypertension": [
+        "Hipertensión",
+        "Indicador de hipertension",
+        "Indicador de si el paciente tiene hipertension",
+        "Hipertencion"
+    ],
+    "appet": [
+        "Apetito"
+    ],
+    "edema_pe": [
+        "Edema de pedal"
+    ],
+    "anemia": [
+        "Anemia"
     ],
     "n_days": [
         "Numero de dias entre el registro y el estudio o muerte"
     ],
     "status": [
-        "Estado del paciente",
-        "Indica el estado del paciente"
+        "Indica el estado del paciente",
+        "Estado del paciente"
     ],
     "drug": [
         "Indica el medicamento que el paciente esta tomando",
@@ -335,31 +332,27 @@ EQUIVALENCIAS_VARIABLES = {
         "Presencia de hepatomegalia"
     ],
     "spiders": [
+        "Presencia de arañas vasculares",
         "Presencia de arañas vasculares"
     ],
     "edema": [
         "Presencia de edema"
     ],
     "bilirrubin": [
-        "Bilirrubina serica",
-        "Nivel de bilirrubina serica"
-    ],
-    "albumin": [
-        "Albumina en gm/dl",
-        "Nivel de albumina",
-        "Nivel de albumina serica"
+        "Nivel de bilirrubina serica",
+        "Bilirrubina serica"
     ],
     "copper": [
-        "Cobre en orina",
-        "Nivel de cobre en la orina"
+        "Nivel de cobre en la orina",
+        "Cobre en orina"
     ],
     "alk_phos": [
-        "Fosfata alcalina",
+        "Nivel de fosfatasa alcalina serica",
         "Fosfatasa alcalina en U/L",
-        "Nivel de fosfatasa alcalina serica"
+        "Nivel de fosfatasa alcalina",
+        "Fosfata alcalina"
     ],
     "sgot": [
-        "Aspartato aminotransferasa",
         "Nivel de transaminasa glutámica-oxaloacética serica",
         "Transaminasa glutámica-oxaloacética en U/L"
     ],
@@ -372,20 +365,18 @@ EQUIVALENCIAS_VARIABLES = {
         "Tiempo de protrombina en segundos"
     ],
     "stage": [
-        "Etapa de la cirrosis",
-        "Etapa histologica de la enfermedad"
+        "Etapa de la cirrosis"
+    ],
+    "cirrosis_stage": [
+        "Etapa histologica de la enfermedad (cirrosis)",
+        "Tipo de enfermedad",
+        "Etapa de la cirrosis"
     ],
     "waist_circumference": [
         "Circunferencia de la cintura del paciente en cm"
     ],
     "hip_circumference": [
         "Circunferencia de la cadera del paciente en cm"
-    ],
-    "systolic_bp": [
-        "Presion arterial sistolica"
-    ],
-    "diastolic_bp": [
-        "Presion arterial diastolica"
     ],
     "hyperlipidemia": [
         "Indicador de hiperlipidemia"
@@ -396,11 +387,9 @@ EQUIVALENCIAS_VARIABLES = {
     "ast": [
         "Nivel de aspartato aminotransferasa"
     ],
-    "alt": [
-        "Nivel de alanina aminotransferasa"
-    ],
-    "alp": [
-        "Nivel de fosfatasa alcalina"
+    "alanine_aminotransferase": [
+        "Nivel de  alaninaaminotransferasa",
+        "Alanina aminotransferasa"
     ],
     "ggt": [
         "Nivel de Gamma-glutamil transferasa"
@@ -420,9 +409,6 @@ EQUIVALENCIAS_VARIABLES = {
     "total_protein": [
         "Nivel de proteinas totales"
     ],
-    "urea": [
-        "Nivel de urea"
-    ],
     "creatinine_clearance": [
         "Nivel de aclaramiento de creatinina"
     ],
@@ -432,26 +418,17 @@ EQUIVALENCIAS_VARIABLES = {
     "triglycerides": [
         "Nivel de trigliceridos"
     ],
-    "ldl": [
+    "cholesterol_ldl": [
         "Nivel de colesterol LDL"
     ],
-    "hdl": [
+    "cholesterol_hdl": [
         "Nivel de colesterol HDL"
     ],
-    "vldl": [
+    "cholesterol_vldl": [
         "Nivel de colesterol VLDL"
     ],
     "uric_acid": [
         "Nivel de acido urico"
-    ],
-    "Red_blood_cell_count": [
-        "Recuento globulos rojos"
-    ],
-    "hemoglobin": [
-        "Nivel de hemoglobina"
-    ],
-    "hematocrit": [
-        "Nivel de hematocrito"
     ],
     "platelet": [
         "Recuento de plaquetas"
@@ -472,8 +449,8 @@ EQUIVALENCIAS_VARIABLES = {
         "Nivel de ferritina"
     ],
     "bun": [
-        "Nitrogeno ureico en sangre",
-        "Nivel de nitrogeno ureico en sangre"
+        "Nivel de nitrogeno ureico en sangre ",
+        "Nitrogeno ureico en sangre"
     ],
     "hemoglobin_a1c": [
         "Nivel de hemoglobina A1C"
@@ -508,35 +485,26 @@ EQUIVALENCIAS_VARIABLES = {
     "diagnosis_according_saf": [
         "Diagnostico segun SAF"
     ],
-    "type_of_disease": [
-        "Tipo de enfermedad"
-    ],
-    "mcv": [
-        "Volumen corpuscular medio"
-    ],
-    "sgpt": [
-        "Alanina aminotransferasa"
+    "aspartate_aminotransferase": [
+        "Aspartato aminotransferasa"
     ],
     "gammagt": [
         "Gamma-glutamil transpeptidasa"
     ],
-    "drinks": [
+    "alcohol_drinks": [
         "Numero de equivalentes de medio litro de bebidas alcoholicas por dia"
     ],
     "selector": [
-        "Campo creado por los investigadores de BUPA para dividir los datos en conjuntos de entrenamiento/prueba."
+        "Campo creado por los investigadores de BUPA para dividir los datos en conjuntos de entrenamiento/prueba. "
     ],
-    "dz_group": [
+    "disease_group": [
         "Grupo de enfermedad"
     ],
-    "dz_class": [
+    "disease_class": [
         "Clase de enfermedad"
     ],
     "num_co": [
         "Numero de comorbilidades"
-    ],
-    "edu": [
-        "Nivel educativo"
     ],
     "scoma": [
         "Escala de coma de Glasgow"
@@ -553,13 +521,13 @@ EQUIVALENCIAS_VARIABLES = {
     "avt_isst": [
         "Tiempo de ventilacion asistida"
     ],
-    "sps": [
+    "survival": [
         "Puntuacion de pronostico de supervivencia"
     ],
     "aps": [
         "Puntuacion de la condicion fisica aguda"
     ],
-    "surv_2_m": [
+    "survival_2_m": [
         "Supervivencia a 2 meses"
     ],
     "surv_6_m": [
@@ -589,10 +557,10 @@ EQUIVALENCIAS_VARIABLES = {
     "mean_bp": [
         "Presion arterial media"
     ],
-    "hrt": [
+    "heart_rate": [
         "Frecuencia cardiaca"
     ],
-    "resp": [
+    "respiratory_rate": [
         "Frecuencia respiratoria"
     ],
     "body_temp": [
@@ -601,14 +569,8 @@ EQUIVALENCIAS_VARIABLES = {
     "pafi": [
         "Relación PaO2/FiO2"
     ],
-    "alb": [
-        "Nivel de albumina"
-    ],
     "bili": [
         "Nivel de bilirrubina"
-    ],
-    "crea": [
-        "Nivel de creatinina"
     ],
     "ph": [
         "Nivel de ph"
@@ -637,15 +599,6 @@ EQUIVALENCIAS_VARIABLES = {
     "state": [
         "Estado de residencia del encuestado"
     ],
-    "general_health": [
-        "Salud general percibida del encuestado"
-    ],
-    "physical_health_days": [
-        "Numero de dias durante los ultimos 30 en la que la salud fisica no fue buena"
-    ],
-    "mental_health_days": [
-        "Numero de dias durante los ultimos 30 en que la salud mental no fue buena"
-    ],
     "last_checkup_time": [
         "Tiempo transcurrido desde el ultimo chequeo medico"
     ],
@@ -664,23 +617,13 @@ EQUIVALENCIAS_VARIABLES = {
     "had_angina": [
         "Si el encuestado ha tenido angina de pecho"
     ],
-    "had_stroke": [
-        "Si el encuestado ha tenido un derrame cerebral"
-    ],
-    "had_asthma": [
-        "Si el encuestado ha tenido asma"
-    ],
-    "had_skin_cancer": [
-        "Si el encuestado ha tenido cancer de piel"
-    ],
-    "has_COPD": [
-        "Si el encuestado ha tenido EPOC (Enfermedad pulmonar Obstructiva Cronica)"
+    "has_EPOC": [
+        "Si el encuestado ha tenido EPOC (Enfermedad pulmonar Obstructiva Cronica)",
+        "La EPOC en la vida del paciente",
+        "EPOC (Enfermedad Pulmonar Obstructiva Cronica)"
     ],
     "had_depressive_disorder": [
         "Si el encuestado ha tenido un trastorno depresivo"
-    ],
-    "had_kidney-disease": [
-        "Si el encuestado ha tenido enfermedad renal"
     ],
     "had_arthritis": [
         "Si el encuestado ha tenido artritis"
@@ -694,9 +637,6 @@ EQUIVALENCIAS_VARIABLES = {
     "difficulty_concentrating": [
         "Si el entrevistado tiene dificultad para concentrarse"
     ],
-    "difficulty_walking": [
-        "Si el encuestado tiene dificultad para caminar"
-    ],
     "difficulty_dressing_bathing": [
         "Si el encuestado tiene dificultad para vestirse o bañarse."
     ],
@@ -709,19 +649,10 @@ EQUIVALENCIAS_VARIABLES = {
     "chest_scan": [
         "Si se ha realizado una exploracion de torax"
     ],
-    "heigh_in_meters": [
-        "Altura del encuestado en metros"
-    ],
-    "weigh_in_kilograms": [
-        "Peso del encuestado en kilogramos"
-    ],
-    "alcohol": [
-        "Si el encuestado es bebedor de alcohol"
-    ],
     "HIV_testing": [
         "Si el encuestado se ha realizado prueba de VIH"
     ],
-    "flu_vax_last_12": [
+    "flu_vaccine_last12months": [
         "Si el encuestado recibio la vacuna contra la gripe en los ultimos 12 meses"
     ],
     "pneumo_vax_ever": [
@@ -734,18 +665,19 @@ EQUIVALENCIAS_VARIABLES = {
         "Si el encuestado ha sido considerado de alto riesgo en el ultimo anio"
     ],
     "covid_pos": [
-        "Resultado de la prueba de COVID-19"
+        "Resultado de la prueba de COVID-19",
+        "Clasificación final del caso (1-3: confirmado COVID, 4-7: no confirmado)"
     ],
-    "pack_history": [
+    "smoking_history": [
         "Historial de tabaquismo del paciente, posiblemente en paquetes-año"
     ],
-    "mwt1": [
+    "sixmin_walk_distance_1": [
         "Distancia caminada en la primera prueba de marcha de 6 minutos"
     ],
-    "mwt2": [
+    "sixmin_walk_distance_2": [
         "Distancia caminada en la segunda prueba de marcha de 6 minutos"
     ],
-    "mwt1_best": [
+    "sixmin_walk_distance_best": [
         "La mejor ditancia caminada entre MWT1 y MWT2"
     ],
     "fev1": [
@@ -760,29 +692,22 @@ EQUIVALENCIAS_VARIABLES = {
     "fvc_pred": [
         "Porcentaje predicho de fvc"
     ],
-    "cat": [
+    "cat_score": [
         "Puntuación del Cuestionario de Evaluación de la EPOC (CAT score), mide el impacto de la EPOC en la vida del paciente"
     ],
-    "had": [
-        "La EPOC en la vida del paciente"
+    "st_george_respiratory_score": [
+        "Puntuación del Cuestionario Respiratorio de St. George (St. George's Respiratory Questionnaire), evalúa el estado de salud "
     ],
-    "SGrq": [
-        "Puntuación del Cuestionario Respiratorio de St. George (St. George's Respiratory Questionnaire), evalúa el estado de salud"
-    ],
-    "age_quartiles": [
-        "Cuartil de edad del paciente"
-    ],
-    "copd": [
-        "EPOC (Enfermedad Pulmonar Obstructiva Cronica)",
+    "copd_severity": [
         "Indicador numerico de la presencia o gravedad de la EPOC"
     ],
     "muscular": [
         "Indicador si el paciente tiene alguna condicion muscular"
     ],
-    "atrial_fib": [
+    "atrial_fibrillation": [
         "Indicador de si el paciente tiene fibrilacion auricular"
     ],
-    "ihd": [
+    "has_coronary_heart_disease": [
         "Indicador de si el paciente tiene enfermedad isquemica del corazon"
     ],
     "copd_severity_mild": [
@@ -792,7 +717,7 @@ EQUIVALENCIAS_VARIABLES = {
         "Columna dummy: 1 si la severidad de EPOC es MODERATE, 0 en otro caso"
     ],
     "copd_severity_severe": [
-        "Columna dummy: 1 si la severidad de EPOC es SEVERE, 0 en otro caso"
+        " Columna dummy: 1 si la severidad de EPOC es SEVERE, 0 en otro caso"
     ],
     "copd_severity_very_severe": [
         "Columna dummy: 1 si la severidad de EPOC es VERY SEVERE, 0 en otro caso"
@@ -824,22 +749,11 @@ EQUIVALENCIAS_VARIABLES = {
     "other_disease": [
         "Otras enfermedades"
     ],
-    "cardiovascular": [
-        "Enfermedad cardiovascular"
-    ],
     "obesity": [
         "Obesidad"
-    ],
-    "renal_chronic": [
-        "Enfermedad renal cronica"
-    ],
-    "tobacco": [
-        "Consumo de tabaco"
-    ],
-    "clasiffication_final": [
-        "Clasificación final del caso (1-3: confirmado COVID, 4-7: no confirmado)"
     ],
     "icu": [
         "Ingreso a UCI"
     ]
+}
 }
