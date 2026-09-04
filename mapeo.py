@@ -29,7 +29,8 @@ EQUIVALENCIAS_VARIABLES = {
     ],
     "coronary_heart_disease": [
         "¿Alguna vez le han dicho que tiene enfermedad coronaria o infarto de miocardio?",
-        "Enfermedad de las arterias coronarias"
+        "Enfermedad de las arterias coronarias",
+        "Indicador de si el paciente tiene enfermedad isquemica del corazon"
     ],
     "phys_activity": [
         "¿Ha realizado actividad física en los últimos 30 días, aparte de su trabajo habitual?"
@@ -706,9 +707,6 @@ EQUIVALENCIAS_VARIABLES = {
     ],
     "atrial_fibrillation": [
         "Indicador de si el paciente tiene fibrilacion auricular"
-    ],
-    "has_coronary_heart_disease": [
-        "Indicador de si el paciente tiene enfermedad isquemica del corazon"
     ],
     "copd_severity_mild": [
         "Columna dummy: 1 si la severidad de EPOC es MILD, 0 en otro caso"

@@ -1174,7 +1174,7 @@ Pulmo2_dataset = {
         "Si el encuestado ha tenido cancer de piel"
     ],
     # Nombre original HadCOPD
-    "has_EPOC":[
+    "had_copd":[
         "Si el encuestado ha tenido EPOC (Enfermedad pulmonar Obstructiva Cronica)"
     ],
     # Nombre original HadDepressiveDisorder
@@ -1325,7 +1325,7 @@ Pulmo3_dataset = {
         "Puntuación del Cuestionario de Evaluación de la EPOC (CAT score), mide el impacto de la EPOC en la vida del paciente"       
     ],
     # Nombre original HAD
-    "has_EPOC":[
+    "had_copd":[
         "La EPOC en la vida del paciente"
     ],
     # Nombre original SGRQ
@@ -1365,7 +1365,7 @@ Pulmo3_dataset = {
         "Indicador de si el paciente tiene fibrilacion auricular"
     ],
     # Nombre original IHD
-    "has_coronary_heart_disease":[
+    "coronary_heart_disease":[
         "Indicador de si el paciente tiene enfermedad isquemica del corazon"
     ],
     # Nombre original COPDSEVERITY_MILD
@@ -1428,7 +1428,7 @@ Pulmo4_dataset = {
         "Diabetes"
     ],
     # Nombre original COPD
-    "has_EPOC":[
+    "copd":[
         "EPOC (Enfermedad Pulmonar Obstructiva Cronica)"
     ],
     # Nombre original ASTHMA
