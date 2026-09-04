@@ -191,7 +191,7 @@ Diabetes1_dataset = {
         "Nivel de ingresos"
     ],
     # Nombre original Diabetic
-    "diabetic":[
+    "diabetes":[
         "¿Alguna vez le han dicho que tiene diabetes?"
     ]
 }
