@@ -6,51 +6,51 @@ Kidney1_dataset = {
         "Edad en anios"
     ],
     # Nombre original bp
-    "high_bp":[
+    "high_blood_pressure":[
         "Presion sanguinea"
     ],
     # Nombre original sg   
-    "sg":[
+    "kidney_specific_gravity":[
         "Gravedad especifica"
     ],
     # Nombre original al
-    "al":[
+    "albumin":[
         "Albumina"
     ],
     # Nombre original su
-    "su":[
+    "sugar":[
         "Azucar"
     ],
     # Nombre original rbc
-    "rbc":[
+    "red_blood_cell_count":[
         "Glóbulos rojos"
     ],
     # Nombre original pc
-    "pc":[
+    "pus_cells":[
         "Células de pus"
     ],
     # Nombre original pcc
-    "pcc":[
-        "Células de pus"
+    "pus_cells_grams":[
+        "Gramos de Células de pus"
     ],
     # Nombre original ba
-    "ba":[
+    "bacteria":[
         "Bacterias"
     ],
     # Nombre original bgr
-    "bgr":[
+    "glucose":[
         "Glucosa en sangre"
     ],
     # Nombre original bu
-    "bu":[
+    "urea":[
         "Urea en sangre"
     ],
     # Nombre original sc
-    "sc":[
+    "creatinine":[
         "Creatinina serica"
     ],
     # Nombre original sod
-    "sod":[
+    "sodium":[
         "Sodio"
     ],
     # Nombre original pot
@@ -58,11 +58,11 @@ Kidney1_dataset = {
         "Potasio"
     ],
     # Nombre original hemo
-    "hemo":[
+    "hemoglobin":[
         "Hemoglobina"
     ],
     # Nombre original pcv
-    "pcv":[
+    "hematocrit":[
         "volumen celular empaquetado"
     ],
     # Nombre original wc
@@ -70,7 +70,7 @@ Kidney1_dataset = {
         "Recuento de glóbulos blancos"
     ],
     # Nombre original rc
-    "rc":[
+    "red_blood_cell_count":[
         "Recuento de glóbulos rojos"
     ],
     # Nombre original htn
@@ -78,19 +78,19 @@ Kidney1_dataset = {
         "Hipertensión"
     ],
     # Nombre original dm
-    "dm":[
+    "diabetes":[
         "Diabetes mellitus"
     ],
     # Nombre original cad
-    "cad":[ 
-        "enfermedad de las arterias coronarias"
+    "coronary_heart_disease":[ 
+        "Enfermedad de las arterias coronarias"
     ],
     # Nombre original appet
     "appet":[
         "Apetito"
     ],
     # Nombre original pe
-    "pe":[
+    "edema_pe":[
         "Edema de pedal"
     ],
     # Nombre original anemia
@@ -98,8 +98,8 @@ Kidney1_dataset = {
         "Anemia"
     ],
     # Nombre original class
-    "class":[
-        "Clase)"
+    "kidney_disease":[
+        "Indica si el paciente tiene enfermedad renal crónica"
     ]
 }
 
@@ -107,19 +107,19 @@ Kidney1_dataset = {
 
 Diabetes1_dataset = {
     # Nombre original HighBP
-    "High_bp":[
+    "high_blood_pressure":[
         " Presión arterial alta "
     ],
     # Nombre original HighChol
-    "High_Chol":[
+    "High_Cholesterol":[
         "Colesterol alto"
     ],
     # Nombre original CholCheck
-    "Chol_Check":[
+    "Cholesterol_Check":[
        "Control de colesterol realizado en los últimos 5 años"
    ],
     # Nombre original BMI
-    "mib":[
+    "bmi":[
         "Índice de masa corporal"
     ],
     # Nombre original Smoker
@@ -131,8 +131,8 @@ Diabetes1_dataset = {
         "¿Alguna vez le han dicho que ha tenido un derrame cerebral?"
     ],
     # Nombre original  HeartDiseaseorAttack
-    "heart_diseaseor_attack":[
-    " ¿Alguna vez le han dicho que tiene enfermedad coronaria o infarto de miocardio? "       
+    "coronary_heart_disease":[
+    "¿Alguna vez le han dicho que tiene enfermedad coronaria o infarto de miocardio?"       
     ],
     # Nombre original PhysActivity
     "phys_activity":[
@@ -147,11 +147,11 @@ Diabetes1_dataset = {
         "¿Consume verduras al menos una vez al día?"
     ],
     # Nombre original HvyAlcoholConsump
-    "hvy_alcohol_consump":[
+    "alcohol":[
         "Bebedores empedernidos"
     ],
     # Nombre original AnyHealthcare
-    "any_healthcare":[
+    "healthcare_coverage":[
         "¿Tiene algún tipo de cobertura de seguro médico, o tiene algún tipo de plan de pago para la atención médica?"
     ],
     # Nombre original NoDocbcCost
@@ -159,19 +159,19 @@ Diabetes1_dataset = {
         "¿Ha dejado de ir al médico en el último año debido a los costos?"
     ],
     # Nombre original GenHlth
-    "gen_hlth":[
+    "general_health":[
         "¿Cómo calificaría su salud en general?"
     ],
     # Nombre original MentHlth
-    "ment_hlth":[
+    "mental_health":[
         "Ahora, pensando en su salud mental, ¿cuántos días durante los últimos 30 días su salud mental no fue buena?"
     ],
     # Nombre original PhysHlth
-    "phys_hlth":[
+    "physical_health":[
         "Ahora, pensando en su salud física, ¿cuántos días durante los últimos 30 días su salud física no fue buena?"
     ],
     # Nombre original DiffWalk
-    "diff_walk":[
+    "difficulty_walking":[
         "¿Tiene alguna dificultad para caminar o subir escaleras?"
     ],
     # Nombre original Sex
@@ -208,7 +208,7 @@ Heart1_dataset = {
         "Edad del paciente en dias"
     ],
     # Nombre original Gender
-    "gender":[
+    "sex":[
         "Sexo del paciente"
     ],
     # Nombre original Height
@@ -220,11 +220,11 @@ Heart1_dataset = {
         "Peso del paciente en kg"
     ],
     # Nombre original ap_hi
-    "ap_hi":[
+    "systolic_bp":[
         "Presion arterial sistolica"
     ],
     # Nombre original ap_lo
-    "ap_lo":[
+    "diastolic_bp":[
         "Presion arterial diastolica"
     ],
     # Nombre original Cholesterol
@@ -240,7 +240,7 @@ Heart1_dataset = {
         "Indica si el paciente fuma"
     ],
     # Nombre original alco
-    "alcol":[
+    "alcohol":[
         "Indica si el paciente consume alcohol"
     ],
     # Nombre original Active
@@ -248,7 +248,7 @@ Heart1_dataset = {
         "Indica si el paciente realiza actividad fisica"
     ],
     # Nombre original Cardio
-    "cardio":[
+    "cardiovascular":[
         "Indica si el paciente tiene enfermedad cardiovascular"
     ]
 }
@@ -263,19 +263,19 @@ Heart2_dataset = {
         "Sexo del paciente"
     ],
     # Nombre original cp
-    "cp":[
+    "chest_pain_type":[
         "Tipo de dolor toracico"
     ],
     # Nombre original trestbps
-    "trestbps":[
+    "resting_bp":[
         "Presion arterial en reposo"
     ],
     # Nombre original chol
-    "chol":[
+    "cholesterol":[
         "Colesterol serico en mg/dl"
     ],
     # Nombre original fbs
-    "fbs":[
+    "glucose":[
         "Nivel de glucosa en sangre en ayunas"
     ],
     # Nombre original restecg
@@ -299,15 +299,15 @@ Heart2_dataset = {
         "Pendiente del segmento ST"
     ],
     # Nombre original ca
-    "ca":[
+    "num_major_vessels":[
         "Numero de vasos principales (0-3) coloreados por fluoroscopia"
     ],
     # Nombre original thal
-    "thal":[
+    "thalium_test_result":[
         "Resultado de la prueba de estres con talio"
     ],
     # Nombre original num
-    "heart_disease_diagnosis":[
+    "heart_disease":[
         "Diagnostico de enfermedad cardiaca"
     ]
 }
@@ -326,19 +326,19 @@ Heart3_dataset = {
         "Sexo del paciente"
     ],
     # Nombre original chestpain
-    "cp":[
+    "chest_pain_type":[
         "Tipo de dolor en el pecho"
     ],
     # Nombre original restingBP
-    "trestbps":[
+    "resting_bp":[
         "Presion arterial en reposo"
     ],
     # Nombre original serumchlestrol
-    "chol":[
+    "cholesterol":[
         "Colesterol serico en mg/dl"
     ],
     # Nombre original fastingbooldsugar
-    "fbs":[
+    "sugar":[
         "Azucar en sangre en ayunas"
     ],
     # Nombre original restingelectro
@@ -362,11 +362,11 @@ Heart3_dataset = {
         "Pendiente del segmento ST"
     ],
     # Nombre original noofmajorvessels
-    "ca":[
+    "num_major_vessels":[
         "Numero de vasos principales (0-3) coloreados por fluoroscopia"
     ],
     # Nombre original target
-    "heart_disease_diagnosis":[
+    "heart_disease":[
         "Presencia de enfermedad cardiaca"
     ]
 }
@@ -409,7 +409,7 @@ Heart4_dataset = {
         "Nivel de creatinina serica en sangre"
     ],
     # Nombre original serum_sodium
-    "sod":[
+    "sodium":[
         "Nivel de sodio en sangre"
     ],
     # Nombre original smoking
@@ -437,10 +437,10 @@ Heart5_dataset = {
     ],
     # Nombre original Smoking
     "smoking":[
-        "Indica si el paciente a fumado al menos5 paquete de cigarrillos en su vida"
+        "Indica si el paciente a fumado al menos 5 paquete de cigarrillos en su vida"
     ],
     # Nombre original AlcoholDrinking
-    "alcohol_drinking":[
+    "alcohol":[
         "Indica si el paciente es un bebedor excesivo de alcohol"
     ],
     # Nombre original Stroke
@@ -448,7 +448,7 @@ Heart5_dataset = {
         "Indica si el paciente ha tenido un derrame cerebral"
     ],
     # Nombre original PhysicalHealth
-    "physical_health":[
+    "physical_health_days":[
         "Numero de dias en los ultimos 30 dias en que la salud fisica del paciente no fue buena"
     ],
     # Nombre original MentalHealth
@@ -456,7 +456,7 @@ Heart5_dataset = {
         "Numero de dias en los ultimos 30 dias en que la salud mental del paciente no fue buena"
     ],
     # Nombre original DiffWalking
-    "diff_walking":[
+    "difficulty_walking":[
         "Indica si el paciente tiene dificultad para caminar o subir escaleras"
     ],
     # Nombre original Sex
@@ -464,7 +464,7 @@ Heart5_dataset = {
         "Sexo del paciente"
     ],
     # Nombre original AgeCategory
-    "age_category":[
+    "age":[
         "Categoria de edad del paciente"
     ],
     # Nombre original Race
@@ -480,7 +480,7 @@ Heart5_dataset = {
         "Indica si el paciente realiza actividad fisica en los ultimos 30 dias"
     ],
     # Nombre original GenHealth
-    "gen_health":[
+    "general_health":[
         "Nivel de salud general percibida por el paciente"
     ],
     # Nombre original SleepTime
@@ -652,8 +652,8 @@ Liver2_dataset = {
         "Tiempo de protrombina en segundos"
     ],
     # Nombre original Stage
-    "stage":[
-        "Etapa histologica de la enfermedad"
+    "cirrosis_stage":[
+        "Etapa histologica de la enfermedad (cirrosis)"
     ],
     # Nombre original Status
     "status":[
@@ -727,11 +727,11 @@ Liver3_dataset = {
         "Nivel de aspartato aminotransferasa"
     ],
     # Nombre original ALT
-    "alt":[
-        "Nivel de alanina aminotransferasa"
+    "alanine_aminotransferase":[
+        "Nivel de  alaninaaminotransferasa"
     ],
     # Nombre original ALP
-    "alp":[
+    "alk_phos":[
         "Nivel de fosfatasa alcalina"
     ],
     # Nombre original GGT
@@ -783,15 +783,15 @@ Liver3_dataset = {
         "Nivel de trigliceridos"
     ],
     # Nombre original LDL
-    "ldl":[
+    "cholesterol_ldl":[
         "Nivel de colesterol LDL"
     ],
     # Nombre original HDL
-    "hdl":[
+    "cholesterol_hdl":[
         "Nivel de colesterol HDL"
     ],
     # Nombre original VLDL
-    "vldl":[
+    "cholesterol_vldl":[
         "Nivel de colesterol VLDL"
     ],
     # Nombre original Uric Acid
@@ -803,7 +803,7 @@ Liver3_dataset = {
         "Recuento de globulos blancos"
     ],
     # Nombre original Red Blood Cells
-    "Red_blood_cell_count":[
+    "red_blood_cell_count":[
         "Recuento globulos rojos"
     ],
     # Nombre original Hemoglobin
@@ -895,14 +895,14 @@ Liver3_dataset = {
         "Diagnostico segun SAF"
     ],
     # Nombre original Type of Disease
-    "type_of_disease":[
+    "cirrosis_stage":[
         "Tipo de enfermedad"
     ] 
 }
 
 Liver4_dataset = {
     # Nombre original mcv
-    "mcv":[
+    "mean_corpuscular_volume":[
         "Volumen corpuscular medio"
     ],
     # Nombre original alkphos
@@ -910,11 +910,11 @@ Liver4_dataset = {
         "Fosfata alcalina"
     ],
     # Nombre original sgpt
-    "sgpt":[
+    "alanine_aminotransferase":[
         "Alanina aminotransferasa"
     ],
-    # Nombre original sgot
-    "sgot":[
+        # Nombre original sgot
+        "aspartate_aminotransferase":[
         "Aspartato aminotransferasa"
     ],
     # Nombre original gammagt
@@ -922,7 +922,7 @@ Liver4_dataset = {
         "Gamma-glutamil transpeptidasa"
     ],
     # Nombre original drinks
-    "drinks":[
+    "alcohol_drinks":[
         "Numero de equivalentes de medio litro de bebidas alcoholicas por dia"
     ],
     # Nombre original selector
@@ -943,11 +943,11 @@ Pulmo1_dataset = {
       "sexo del paciente"
     ],
     # Nombre orignal dzgroup
-    "dz_group":[
+    "disease_group":[
       "Grupo de enfermedad"
     ],
     # Nombre original dzclass
-    "dz_class":[
+    "disease_class":[
       "Clase de enfermedad"
     ],
     # Nombre original num.co
@@ -955,7 +955,7 @@ Pulmo1_dataset = {
       "Numero de comorbilidades"
     ],
     # Nombre original esu
-    "edu":[
+    "education":[
       "Nivel educativo"
     ],
     # Nombre original income
@@ -987,7 +987,7 @@ Pulmo1_dataset = {
      "Raza del paciente"
     ],
     # Nombre original sps
-    "sps":[
+    "survival":[
       "Puntuacion de pronostico de supervivencia"
     ],
     # Nombre original aps
@@ -995,7 +995,7 @@ Pulmo1_dataset = {
      "Puntuacion de la condicion fisica aguda"
     ],
     # Nombre original surv2m
-    "surv_2_m":[
+    "survival_2_m":[
       "Supervivencia a 2 meses"
     ],
     # Nombre original surv6m
@@ -1043,11 +1043,11 @@ Pulmo1_dataset = {
       "Recuento de globulos blancos"
     ],
     # Nombre original hrt
-    "hrt":[
+    "heart_rate":[
       "Frecuencia cardiaca"
     ],
     # Nombre original resp
-    "resp":[
+    "respiratory_rate":[
       "Frecuencia respiratoria"
     ],
     # Nombre original temp
@@ -1059,7 +1059,7 @@ Pulmo1_dataset = {
      "Relación PaO2/FiO2"
     ],
     # Nombre original alb
-    "alb":[
+    "albumin":[
      "Nivel de albumina"
     ],
     # Nombre original bili
@@ -1067,11 +1067,11 @@ Pulmo1_dataset = {
       "Nivel de bilirrubina"
     ],
     # Nombre original crea
-    "crea":[
+    "creatinine":[
      "Nivel de creatinina "
     ],
     # Nombre original sod
-    "sod":[
+    "sodium":[
      "Nivel de sodio"
     ],
     # Nombre original ph
@@ -1130,11 +1130,11 @@ Pulmo2_dataset = {
         "Salud general percibida del encuestado"
     ],
     # Nombre original PhysicalHealthDays
-    "physical_health_days":[
+    "physical_health":[
         "Numero de dias durante los ultimos 30 en la que la salud fisica no fue buena"
     ],
     # Nombre original MentalHealthDays
-    "mental_health_days":[
+    "mental_health":[
         "Numero de dias durante los ultimos 30 en que la salud mental no fue buena"
     ],
     # Nombre original LastCheckupTime
@@ -1162,11 +1162,11 @@ Pulmo2_dataset = {
         "Si el encuestado ha tenido angina de pecho"
     ],
     # Nombre original HadStroke
-    "had_stroke":[
+    "stroke":[
         "Si el encuestado ha tenido un derrame cerebral"
     ],
     # Nombre original HadAsthma
-    "had_asthma":[
+    "asthma":[
         "Si el encuestado ha tenido asma"
     ],
     # Nombre original HadSkinCancer
@@ -1174,7 +1174,7 @@ Pulmo2_dataset = {
         "Si el encuestado ha tenido cancer de piel"
     ],
     # Nombre original HadCOPD
-    "has_COPD":[
+    "has_EPOC":[
         "Si el encuestado ha tenido EPOC (Enfermedad pulmonar Obstructiva Cronica)"
     ],
     # Nombre original HadDepressiveDisorder
@@ -1182,7 +1182,7 @@ Pulmo2_dataset = {
         "Si el encuestado ha tenido un trastorno depresivo"
     ],
     # Nombre original HadKidneyDisease
-    "had_kidney-disease":[
+    "kidney_disease":[
         "Si el encuestado ha tenido enfermedad renal"
     ],
     # Nombre original HadArthritis
@@ -1238,11 +1238,11 @@ Pulmo2_dataset = {
         "Categoria de edad del encuestado"
     ],
     # Nombre original HeighInMeters
-    "heigh_in_meters":[
+    "height":[
         "Altura del encuestado en metros"
     ],
     # Nombre original WeighInKilograms
-    "weigh_in_kilograms":[
+    "weight":[
         "Peso del encuestado en kilogramos"
     ],
     # Nombre original BMI
@@ -1258,7 +1258,7 @@ Pulmo2_dataset = {
         "Si el encuestado se ha realizado prueba de VIH"
     ],
     # Nombre original FluVaxLast12
-    "flu_vax_last_12":[
+    "flu_vaccine_last12months":[
         "Si el encuestado recibio la vacuna contra la gripe en los ultimos 12 meses"
     ],
     # Nombre original PneumoVaxEver
@@ -1289,19 +1289,19 @@ Pulmo3_dataset = {
         "Edad del paciente en anios"
     ],
     # Nombre original PackHistory
-    "pack_history":[
+    "smoking_history":[
         "Historial de tabaquismo del paciente, posiblemente en paquetes-año"
     ],
     # Nombre original MWT1
-    "mwt1":[
+    "sixmin_walk_distance_1":[
         "Distancia caminada en la primera prueba de marcha de 6 minutos"
     ],
     # Nombre original MWT2
-    "mwt2":[
+    "sixmin_walk_distance_2":[
         "Distancia caminada en la segunda prueba de marcha de 6 minutos"
     ],
     # Nombre original MWT1Best
-    "mwt1_best":[
+    "sixmin_walk_distance_best":[
         "La mejor ditancia caminada entre MWT1 y MWT2"
     ],
     # Nombre original FEV1
@@ -1321,23 +1321,23 @@ Pulmo3_dataset = {
         "Porcentaje predicho de fvc"
     ],
     # Nombre original CAT
-    "cat":[
+    "cat_score":[
         "Puntuación del Cuestionario de Evaluación de la EPOC (CAT score), mide el impacto de la EPOC en la vida del paciente"       
     ],
     # Nombre original HAD
-    "had":[
+    "has_EPOC":[
         "La EPOC en la vida del paciente"
     ],
     # Nombre original SGRQ
-    "SGrq":[
+    "st_george_respiratory_score":[
         "Puntuación del Cuestionario Respiratorio de St. George (St. George's Respiratory Questionnaire), evalúa el estado de salud "
     ],
     # Nombre original AGEquartiles
-    "age_quartiles":[
+    "age":[
         "Cuartil de edad del paciente"
     ],
     # Nombre original copd
-    "copd":[
+    "copd_severity":[
         "Indicador numerico de la presencia o gravedad de la EPOC"
     ],
     # Nombre original gender
@@ -1345,7 +1345,7 @@ Pulmo3_dataset = {
         "Genero del paciente"
     ],
     # Nombre original smoking
-    "smoking":[
+    "smoker":[
         "Estado de fumador del paciente"
     ],
     # Nombre original Diabetes
@@ -1361,11 +1361,11 @@ Pulmo3_dataset = {
         "Indicador de si el paciente tiene hipertension"
     ],
     # Nombre original AtrialFib
-    "atrial_fib":[
+    "atrial_fibrillation":[
         "Indicador de si el paciente tiene fibrilacion auricular"
     ],
     # Nombre original IHD
-    "ihd":[
+    "has_coronary_heart_disease":[
         "Indicador de si el paciente tiene enfermedad isquemica del corazon"
     ],
     # Nombre original COPDSEVERITY_MILD
@@ -1428,7 +1428,7 @@ Pulmo4_dataset = {
         "Diabetes"
     ],
     # Nombre original COPD
-    "copd":[
+    "has_EPOC":[
         "EPOC (Enfermedad Pulmonar Obstructiva Cronica)"
     ],
     # Nombre original ASTHMA
@@ -1456,15 +1456,15 @@ Pulmo4_dataset = {
         "Obesidad"
     ],
     # Nombre original RENAL_CHRONIC
-    "renal_chronic":[
+    "kidney_disease":[
         "Enfermedad renal cronica"
     ],
     # Nombre original TOBACCO
-    "tobacco":[
+    "smoking":[
         "Consumo de tabaco"
     ],
     # Nombre original CLASIFFICATION_FINAL
-    "clasiffication_final":[
+    "covid_pos":[
         "Clasificación final del caso (1-3: confirmado COVID, 4-7: no confirmado)"
     ],
     # Nombre original ICU
@@ -1473,851 +1473,6 @@ Pulmo4_dataset = {
     ]
 }
 
-EQUIVALENCIAS_VARIABLES = {
-    "age": [
-        "Categoria de edad del encuestado",
-        "Categoría de edad de 13 niveles (1 = 18-24, 2 = 25-29, ..., 13 = 80 o más)",
-        "Edad del paciente",
-        "Edad del paciente (anios)",
-        "Edad del paciente en anios",
-        "Edad del paciente en dias",
-        "Edad en anios",
-        "Edad en años"
-    ],
-    "HighBP": [
-        "Hipertencion",
-        "Hipertensión",
-        "Indica si el paciente tiene hipertencion",
-        "Indicador de hipertension",
-        "Indicador de si el paciente tiene hipertension",
-        "Presion sanguinea",
-        "Presión arterial alta"
-    ],
-    "sg": [
-        "Gravedad especifica"
-    ],
-    "al": [
-        "Albumina"
-    ],
-    "su": [
-        "Azucar"
-    ],
-    "rbc": [
-        "Glóbulos rojos"
-    ],
-    "pc": [
-        "Células de pus"
-    ],
-    "pcc": [
-        "Células de pus"
-    ],
-    "ba": [
-        "Bacterias"
-    ],
-    "bgr": [
-        "Glucosa en sangre"
-    ],
-    "bu": [
-        "Urea en sangre"
-    ],
-    "sc": [
-        "Creatinina serica"
-    ],
-    "sod": [
-        "Nivel de sodio",
-        "Nivel de sodio en sangre",
-        "Sodio"
-    ],
-    "pot": [
-        "Potasio"
-    ],
-    "hemo": [
-        "Hemoglobina"
-    ],
-    "pcv": [
-        "volumen celular empaquetado"
-    ],
-    "white_blood_cell_count": [
-        "Recuento de globulos blancos",
-        "Recuento de glóbulos blancos"
-    ],
-    "rc": [
-        "Recuento de glóbulos rojos"
-    ],
-    "dm": [
-        "Diabetes mellitus"
-    ],
-    "cad": [
-        "enfermedad de las arterias coronarias"
-    ],
-    "appet": [
-        "Apetito"
-    ],
-    "pe": [
-        "Edema de pedal"
-    ],
-    "anemia": [
-        "Anemia"
-    ],
-    "class": [
-        "Clase)"
-    ],
-    "HighChol": [
-        "Colesterol alto",
-        "Colesterol del paciente",
-        "Colesterol serico",
-        "Colesterol serico en mg/dl",
-        "Nivel de colesterol serico",
-        "Nivel del colesterol"
-    ],
-    "CholCheck": [
-        "Control de colesterol realizado en los últimos 5 años"
-    ],
-    "BMI": [
-        "Indice de masa corporal",
-        "Indice de masa corporal del encuestado",
-        "Indice de masa corporal del paciente",
-        "Índice de masa corporal"
-    ],
-    "Smoker": [
-        "Estado de fumador del encuestado",
-        "Estado de fumador del paciente",
-        "Estado de tabaquismo",
-        "Indica si el paciente a fumado al menos5 paquete de cigarrillos en su vida",
-        "Indica si el paciente fuma",
-        "¿Ha fumado al menos 100 cigarrillos en toda su vida?"
-    ],
-    "stroke": [
-        "Indica si el paciente ha tenido un derrame cerebral",
-        "¿Alguna vez le han dicho que ha tenido un derrame cerebral?"
-    ],
-    "heart_diseaseor_attack": [
-        "¿Alguna vez le han dicho que tiene enfermedad coronaria o infarto de miocardio?"
-    ],
-    "phys_activity": [
-        "¿Ha realizado actividad física en los últimos 30 días, aparte de su trabajo habitual?"
-    ],
-    "fruits": [
-        "¿Consume frutas al menos una vez al día?"
-    ],
-    "veggies": [
-        "¿Consume verduras al menos una vez al día?"
-    ],
-    "hvy_alcohol_consump": [
-        "Bebedores empedernidos"
-    ],
-    "any_healthcare": [
-        "¿Tiene algún tipo de cobertura de seguro médico, o tiene algún tipo de plan de pago para la atención médica?"
-    ],
-    "no_docbc_cost": [
-        "¿Ha dejado de ir al médico en el último año debido a los costos?"
-    ],
-    "gen_hlth": [
-        "¿Cómo calificaría su salud en general?"
-    ],
-    "ment_hlth": [
-        "Ahora, pensando en su salud mental, ¿cuántos días durante los últimos 30 días su salud mental no fue buena?"
-    ],
-    "phys_hlth": [
-        "Ahora, pensando en su salud física, ¿cuántos días durante los últimos 30 días su salud física no fue buena?"
-    ],
-    "diff_walk": [
-        "¿Tiene alguna dificultad para caminar o subir escaleras?"
-    ],
-    "sex": [
-        "Genero del encuestado",
-        "Genero del paciente",
-        "Sexo",
-        "Sexo del paciente",
-        "sexo del paciente"
-    ],
-    "education": [
-        "Nivel de educación"
-    ],
-    "income": [
-        "Nivel de ingresos"
-    ],
-    "diabetic": [
-        "¿Alguna vez le han dicho que tiene diabetes?"
-    ],
-    "id": [
-        "Identificador del paciente",
-        "Identificador unico para cada paciente o registro",
-        "Numero de identificacion unico para cada paciente"
-    ],
-    "gender": [
-        "Sexo del paciente"
-    ],
-    "height": [
-        "Altura del paciente en cm"
-    ],
-    "weight": [
-        "Peso del paciente en kg"
-    ],
-    "ap_hi": [
-        "Presion arterial sistolica"
-    ],
-    "ap_lo": [
-        "Presion arterial diastolica"
-    ],
-    "glucose": [
-        "Nivel Glucosa",
-        "Nivel de glucosa"
-    ],
-    "alcol": [
-        "Indica si el paciente consume alcohol"
-    ],
-    "active": [
-        "Indica si el paciente realiza actividad fisica"
-    ],
-    "cardio": [
-        "Indica si el paciente tiene enfermedad cardiovascular"
-    ],
-    "cp": [
-        "Tipo de dolor en el pecho",
-        "Tipo de dolor toracico"
-    ],
-    "trestbps": [
-        "Presion arterial en reposo"
-    ],
-    "fbs": [
-        "Azucar en sangre en ayunas",
-        "Nivel de glucosa en sangre en ayunas"
-    ],
-    "restecg": [
-        "Electrocardiograma en reposo",
-        "Resultados Electrocardiograficos en reposo"
-    ],
-    "thalach": [
-        "Frecuencia cardiaca maxima",
-        "Frecuencia cardiaca maxima alcanzada"
-    ],
-    "exang": [
-        "Indica si el paciente tiene angina inducida por ejercicio"
-    ],
-    "old_peak": [
-        "Depresion del segmento ST inducida por el ejercicio"
-    ],
-    "slope": [
-        "Pendiente del segmento ST"
-    ],
-    "ca": [
-        "Numero de vasos principales (0-3) coloreados por fluoroscopia"
-    ],
-    "thal": [
-        "Resultado de la prueba de estres con talio"
-    ],
-    "heart_disease_diagnosis": [
-        "Diagnostico de enfermedad cardiaca",
-        "Presencia de enfermedad cardiaca"
-    ],
-    "oldpeak": [
-        "Depresion del ST inducida por el ejercicio en relacion con el reposo"
-    ],
-    "anaemia": [
-        "Disminucion de globulos rojos o hemoglobina"
-    ],
-    "creatinine_phosphokinase": [
-        "Nivel de la enzima CPK en sangre"
-    ],
-    "diabetes": [
-        "Diabetes",
-        "Indica si el paciente tiene diabetes",
-        "Indicador de diabetes",
-        "Indicador de si el paciente tiene diabetes",
-        "Precencia de diabetes",
-        "Si el encuestado ha tenido diabetes",
-        "Si el paciente tiene diabetes"
-    ],
-    "ejection_fraction": [
-        "Porcentaje de sangre que sale del corazón en cada contracción (porcentaje)"
-    ],
-    "platelets": [
-        "Plaquetas en /mm3",
-        "Plaquetas en la sangre",
-        "Recuento de plaquetas"
-    ],
-    "creatinine": [
-        "Nivel de creatinina",
-        "Nivel de creatinina serica en sangre"
-    ],
-    "time": [
-        "Tiempo de seguimiento del paciente"
-    ],
-    "death_event": [
-        "Si el paciente fallecio durante el periodo de seguimiento"
-    ],
-    "heart_disease": [
-        "Indica si el paciente tiene enfermedad cardiaca"
-    ],
-    "alcohol_drinking": [
-        "Indica si el paciente es un bebedor excesivo de alcohol"
-    ],
-    "physical_health": [
-        "Numero de dias en los ultimos 30 dias en que la salud fisica del paciente no fue buena"
-    ],
-    "mental_health": [
-        "Numero de dias en los ultimos 30 dias en que la salud mental del paciente no fue buena"
-    ],
-    "diff_walking": [
-        "Indica si el paciente tiene dificultad para caminar o subir escaleras"
-    ],
-    "age_category": [
-        "Categoria de edad del paciente"
-    ],
-    "race": [
-        "Categoria de raza/etnia del encuestado",
-        "Raza del paciente"
-    ],
-    "physical_activity": [
-        "Indica si el paciente realiza actividad fisica en los ultimos 30 dias"
-    ],
-    "gen_health": [
-        "Nivel de salud general percibida por el paciente"
-    ],
-    "sleep_time": [
-        "Horas de suenio promedio del paciente"
-    ],
-    "asthma": [
-        "Asma",
-        "Indica si el paciente tiene asma"
-    ],
-    "kidney_disease": [
-        "Indica si el paciente tiene enfermedad renal"
-    ],
-    "skin_cancer": [
-        "Indica si el paciente tiene cancer de piel"
-    ],
-    "ID": [
-        "Identificador unico de cada paciente"
-    ],
-    "n_days": [
-        "Numero de dias entre el registro y el estudio o muerte"
-    ],
-    "status": [
-        "Estado del paciente",
-        "Indica el estado del paciente"
-    ],
-    "drug": [
-        "Indica el medicamento que el paciente esta tomando",
-        "Tipo de farmaco administrado"
-    ],
-    "ascites": [
-        "Indica si el paciente tiene ascitis",
-        "Presencia de artritis"
-    ],
-    "hepatomegaly": [
-        "Presencia de hepatomegalia"
-    ],
-    "spiders": [
-        "Presencia de arañas vasculares"
-    ],
-    "edema": [
-        "Presencia de edema"
-    ],
-    "bilirrubin": [
-        "Bilirrubina serica",
-        "Nivel de bilirrubina serica"
-    ],
-    "albumin": [
-        "Albumina en gm/dl",
-        "Nivel de albumina",
-        "Nivel de albumina serica"
-    ],
-    "copper": [
-        "Cobre en orina",
-        "Nivel de cobre en la orina"
-    ],
-    "alk_phos": [
-        "Fosfata alcalina",
-        "Fosfatasa alcalina en U/L",
-        "Nivel de fosfatasa alcalina serica"
-    ],
-    "sgot": [
-        "Aspartato aminotransferasa",
-        "Nivel de transaminasa glutámica-oxaloacética serica",
-        "Transaminasa glutámica-oxaloacética en U/L"
-    ],
-    "triglicerides": [
-        "Nivel de trigliceridos",
-        "Trigliceridos en mg/dl"
-    ],
-    "prothrombin": [
-        "Tiempo de protrombina",
-        "Tiempo de protrombina en segundos"
-    ],
-    "stage": [
-        "Etapa de la cirrosis",
-        "Etapa histologica de la enfermedad"
-    ],
-    "waist_circumference": [
-        "Circunferencia de la cintura del paciente en cm"
-    ],
-    "hip_circumference": [
-        "Circunferencia de la cadera del paciente en cm"
-    ],
-    "systolic_bp": [
-        "Presion arterial sistolica"
-    ],
-    "diastolic_bp": [
-        "Presion arterial diastolica"
-    ],
-    "hyperlipidemia": [
-        "Indicador de hiperlipidemia"
-    ],
-    "metabolic_syndrome": [
-        "Indicador de sindrome metabolico"
-    ],
-    "ast": [
-        "Nivel de aspartato aminotransferasa"
-    ],
-    "alt": [
-        "Nivel de alanina aminotransferasa"
-    ],
-    "alp": [
-        "Nivel de fosfatasa alcalina"
-    ],
-    "ggt": [
-        "Nivel de Gamma-glutamil transferasa"
-    ],
-    "ldh": [
-        "Nivel de lactato deshidrogenasa"
-    ],
-    "bilirubin": [
-        "Nivel de bilirubina total"
-    ],
-    "direct_bilirubin": [
-        "Nivel de bilirubina directa"
-    ],
-    "indirec_bilirubin": [
-        "Nivel de bilirubina indirecto"
-    ],
-    "total_protein": [
-        "Nivel de proteinas totales"
-    ],
-    "urea": [
-        "Nivel de urea"
-    ],
-    "creatinine_clearance": [
-        "Nivel de aclaramiento de creatinina"
-    ],
-    "gamma_globulini": [
-        "Nivel de gamma globulina"
-    ],
-    "triglycerides": [
-        "Nivel de trigliceridos"
-    ],
-    "ldl": [
-        "Nivel de colesterol LDL"
-    ],
-    "hdl": [
-        "Nivel de colesterol HDL"
-    ],
-    "vldl": [
-        "Nivel de colesterol VLDL"
-    ],
-    "uric_acid": [
-        "Nivel de acido urico"
-    ],
-    "Red_blood_cell_count": [
-        "Recuento globulos rojos"
-    ],
-    "hemoglobin": [
-        "Nivel de hemoglobina"
-    ],
-    "hematocrit": [
-        "Nivel de hematocrito"
-    ],
-    "platelet": [
-        "Recuento de plaquetas"
-    ],
-    "trombosit": [
-        "Nivel de trombocitos"
-    ],
-    "mean_corpuscular_volume": [
-        "Volumen corpuscular medio"
-    ],
-    "mean_platelet_volume": [
-        "Volumen plaquetario medio"
-    ],
-    "inr": [
-        "Razon normalizada internacional"
-    ],
-    "ferritin": [
-        "Nivel de ferritina"
-    ],
-    "bun": [
-        "Nitrogeno ureico en sangre",
-        "Nivel de nitrogeno ureico en sangre"
-    ],
-    "hemoglobin_a1c": [
-        "Nivel de hemoglobina A1C"
-    ],
-    "steatosis": [
-        "Grado de esteatosis hepatica"
-    ],
-    "activity": [
-        "Grado de actividad inflamatoria hepatica"
-    ],
-    "fibrosis": [
-        "Grado de fibrosis hepatica"
-    ],
-    "kleiner_nas_score": [
-        "Puntuación NAS (NASH Activity Score) según Kleiner."
-    ],
-    "nas_fibrosis_flag": [
-        "Indicator if NAS score ≥ 4 and fibrosis stage ≥ 2 (1 = Yes, 0 = No)."
-    ],
-    "fibrosis_status": [
-        "Indicator of fibrosis presence."
-    ],
-    "significant_fibrosis_status": [
-        "Indicator of significant fibrosis."
-    ],
-    "advanced_fibrosis_status": [
-        "Indicator of advanced fibrosis."
-    ],
-    "cirrosis": [
-        "Indicador de cirrosis"
-    ],
-    "diagnosis_according_saf": [
-        "Diagnostico segun SAF"
-    ],
-    "type_of_disease": [
-        "Tipo de enfermedad"
-    ],
-    "mcv": [
-        "Volumen corpuscular medio"
-    ],
-    "sgpt": [
-        "Alanina aminotransferasa"
-    ],
-    "gammagt": [
-        "Gamma-glutamil transpeptidasa"
-    ],
-    "drinks": [
-        "Numero de equivalentes de medio litro de bebidas alcoholicas por dia"
-    ],
-    "selector": [
-        "Campo creado por los investigadores de BUPA para dividir los datos en conjuntos de entrenamiento/prueba."
-    ],
-    "dz_group": [
-        "Grupo de enfermedad"
-    ],
-    "dz_class": [
-        "Clase de enfermedad"
-    ],
-    "num_co": [
-        "Numero de comorbilidades"
-    ],
-    "edu": [
-        "Nivel educativo"
-    ],
-    "scoma": [
-        "Escala de coma de Glasgow"
-    ],
-    "charges": [
-        "Cargos hospitalarios"
-    ],
-    "tot_cost": [
-        "Costo toal"
-    ],
-    "tot_m_cst": [
-        "Costo medico total"
-    ],
-    "avt_isst": [
-        "Tiempo de ventilacion asistida"
-    ],
-    "sps": [
-        "Puntuacion de pronostico de supervivencia"
-    ],
-    "aps": [
-        "Puntuacion de la condicion fisica aguda"
-    ],
-    "surv_2_m": [
-        "Supervivencia a 2 meses"
-    ],
-    "surv_6_m": [
-        "Superviveencia a 6 meses"
-    ],
-    "h_day": [
-        "Dias de hospital"
-    ],
-    "dementia": [
-        "Presencia de demencia"
-    ],
-    "cancer": [
-        "Precencia de cancer"
-    ],
-    "prg_2_m": [
-        "Pronostico a 2 meses"
-    ],
-    "prg_6_m": [
-        "Pronostico a 6 meses"
-    ],
-    "dnr": [
-        "Orden de no reanimar"
-    ],
-    "dnr_day": [
-        "Dias desde la orden de no reanimar"
-    ],
-    "mean_bp": [
-        "Presion arterial media"
-    ],
-    "hrt": [
-        "Frecuencia cardiaca"
-    ],
-    "resp": [
-        "Frecuencia respiratoria"
-    ],
-    "body_temp": [
-        "Temperatura corporal"
-    ],
-    "pafi": [
-        "Relación PaO2/FiO2"
-    ],
-    "alb": [
-        "Nivel de albumina"
-    ],
-    "bili": [
-        "Nivel de bilirrubina"
-    ],
-    "crea": [
-        "Nivel de creatinina"
-    ],
-    "ph": [
-        "Nivel de ph"
-    ],
-    "urine": [
-        "Produccion de orina"
-    ],
-    "adlp": [
-        "Actividad de la vida diaria"
-    ],
-    "adls": [
-        "Cambio en actividades de la vida diaria"
-    ],
-    "adlsc": [
-        "Cambio en actividades de la vida diaria"
-    ],
-    "death": [
-        "Estado de muerte"
-    ],
-    "hosp_dead": [
-        "Muerte en hospital"
-    ],
-    "sfdm2": [
-        "Escala de funcion desicional de Stanford"
-    ],
-    "state": [
-        "Estado de residencia del encuestado"
-    ],
-    "general_health": [
-        "Salud general percibida del encuestado"
-    ],
-    "physical_health_days": [
-        "Numero de dias durante los ultimos 30 en la que la salud fisica no fue buena"
-    ],
-    "mental_health_days": [
-        "Numero de dias durante los ultimos 30 en que la salud mental no fue buena"
-    ],
-    "last_checkup_time": [
-        "Tiempo transcurrido desde el ultimo chequeo medico"
-    ],
-    "physical_activities": [
-        "Si el encuestado realizo actividad fisica en los ultimos 30 dias"
-    ],
-    "sleep_hours": [
-        "Horas de sueño promedio"
-    ],
-    "removed_teeth": [
-        "Numero de dientes extraidos"
-    ],
-    "had_heart_attack": [
-        "Si el encuestado ha tenido un ataque al corazon"
-    ],
-    "had_angina": [
-        "Si el encuestado ha tenido angina de pecho"
-    ],
-    "had_stroke": [
-        "Si el encuestado ha tenido un derrame cerebral"
-    ],
-    "had_asthma": [
-        "Si el encuestado ha tenido asma"
-    ],
-    "had_skin_cancer": [
-        "Si el encuestado ha tenido cancer de piel"
-    ],
-    "has_COPD": [
-        "Si el encuestado ha tenido EPOC (Enfermedad pulmonar Obstructiva Cronica)"
-    ],
-    "had_depressive_disorder": [
-        "Si el encuestado ha tenido un trastorno depresivo"
-    ],
-    "had_kidney-disease": [
-        "Si el encuestado ha tenido enfermedad renal"
-    ],
-    "had_arthritis": [
-        "Si el encuestado ha tenido artritis"
-    ],
-    "deaf_or_hard_of_hearing": [
-        "Si el encuestado es sordo o tiene dificultad para oir"
-    ],
-    "blind_or_vision_difficulty": [
-        "Si el encuestado es ciego o tiene dificultad visual"
-    ],
-    "difficulty_concentrating": [
-        "Si el entrevistado tiene dificultad para concentrarse"
-    ],
-    "difficulty_walking": [
-        "Si el encuestado tiene dificultad para caminar"
-    ],
-    "difficulty_dressing_bathing": [
-        "Si el encuestado tiene dificultad para vestirse o bañarse."
-    ],
-    "difficulty_errands": [
-        "Si el encuestado tiene dificultad para hacer recados"
-    ],
-    "cigarette_usage": [
-        "Uso de cigarro electronico"
-    ],
-    "chest_scan": [
-        "Si se ha realizado una exploracion de torax"
-    ],
-    "heigh_in_meters": [
-        "Altura del encuestado en metros"
-    ],
-    "weigh_in_kilograms": [
-        "Peso del encuestado en kilogramos"
-    ],
-    "alcohol": [
-        "Si el encuestado es bebedor de alcohol"
-    ],
-    "HIV_testing": [
-        "Si el encuestado se ha realizado prueba de VIH"
-    ],
-    "flu_vax_last_12": [
-        "Si el encuestado recibio la vacuna contra la gripe en los ultimos 12 meses"
-    ],
-    "pneumo_vax_ever": [
-        "Si el encuestado recibio la vacuna antineumococica alguna vez"
-    ],
-    "tetanus_last_10_tdap": [
-        "Si el encuestado recibio la vacuna contra el tetano en los ultimos 10 anios"
-    ],
-    "high_risk_last_year": [
-        "Si el encuestado ha sido considerado de alto riesgo en el ultimo anio"
-    ],
-    "covid_pos": [
-        "Resultado de la prueba de COVID-19"
-    ],
-    "pack_history": [
-        "Historial de tabaquismo del paciente, posiblemente en paquetes-año"
-    ],
-    "mwt1": [
-        "Distancia caminada en la primera prueba de marcha de 6 minutos"
-    ],
-    "mwt2": [
-        "Distancia caminada en la segunda prueba de marcha de 6 minutos"
-    ],
-    "mwt1_best": [
-        "La mejor ditancia caminada entre MWT1 y MWT2"
-    ],
-    "fev1": [
-        "Volumen espiratorio forzado en 1 segundo"
-    ],
-    "fev1_pred": [
-        "Porcentaje predicho de FEV1"
-    ],
-    "fvc": [
-        "Capacidad vital forzada"
-    ],
-    "fvc_pred": [
-        "Porcentaje predicho de fvc"
-    ],
-    "cat": [
-        "Puntuación del Cuestionario de Evaluación de la EPOC (CAT score), mide el impacto de la EPOC en la vida del paciente"
-    ],
-    "had": [
-        "La EPOC en la vida del paciente"
-    ],
-    "SGrq": [
-        "Puntuación del Cuestionario Respiratorio de St. George (St. George's Respiratory Questionnaire), evalúa el estado de salud"
-    ],
-    "age_quartiles": [
-        "Cuartil de edad del paciente"
-    ],
-    "copd": [
-        "EPOC (Enfermedad Pulmonar Obstructiva Cronica)",
-        "Indicador numerico de la presencia o gravedad de la EPOC"
-    ],
-    "muscular": [
-        "Indicador si el paciente tiene alguna condicion muscular"
-    ],
-    "atrial_fib": [
-        "Indicador de si el paciente tiene fibrilacion auricular"
-    ],
-    "ihd": [
-        "Indicador de si el paciente tiene enfermedad isquemica del corazon"
-    ],
-    "copd_severity_mild": [
-        "Columna dummy: 1 si la severidad de EPOC es MILD, 0 en otro caso"
-    ],
-    "copd_severity_moderate": [
-        "Columna dummy: 1 si la severidad de EPOC es MODERATE, 0 en otro caso"
-    ],
-    "copd_severity_severe": [
-        "Columna dummy: 1 si la severidad de EPOC es SEVERE, 0 en otro caso"
-    ],
-    "copd_severity_very_severe": [
-        "Columna dummy: 1 si la severidad de EPOC es VERY SEVERE, 0 en otro caso"
-    ],
-    "usmer": [
-        "Nivel de atencion medica"
-    ],
-    "medical_unit": [
-        "Tipo de institucion del sector salud que brindo la atencion"
-    ],
-    "patient_type": [
-        "Tipo de paciente"
-    ],
-    "date_died": [
-        "Fecha de defuncion"
-    ],
-    "intubed": [
-        "Intubado"
-    ],
-    "p_neumonia": [
-        "Diagnostico de neumonia"
-    ],
-    "pregnat": [
-        "Embarazada"
-    ],
-    "inmsupr": [
-        "Inmunosupresion"
-    ],
-    "other_disease": [
-        "Otras enfermedades"
-    ],
-    "cardiovascular": [
-        "Enfermedad cardiovascular"
-    ],
-    "obesity": [
-        "Obesidad"
-    ],
-    "renal_chronic": [
-        "Enfermedad renal cronica"
-    ],
-    "tobacco": [
-        "Consumo de tabaco"
-    ],
-    "clasiffication_final": [
-        "Clasificación final del caso (1-3: confirmado COVID, 4-7: no confirmado)"
-    ],
-    "icu": [
-        "Ingreso a UCI"
-    ]
-}
 
 
    
